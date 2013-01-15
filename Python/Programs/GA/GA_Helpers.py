@@ -106,7 +106,7 @@ class GeneticAlgorithm:
 		for thing in self.population:
 			thing.printMe()
 			
-				#prints the population into String 
+	#prints the population into String 
 	def seeNewPopulationAsString(self):
 		print "Next Generation {0}".format(self.thisGeneration)
 		if len(self.newPopulation) == 0:
