@@ -6,9 +6,7 @@ populationSize = 100
 
 def main():
 	myPop = GeneticAlgorithm(chromosomeLength, populationSize, maxGenerations)
-	myPop.seePopulationAsString()
 	myPop.evolve()
-	myPop.seePopulationAsString()
 	
 #testingChromosomeIsDefined()
 main()
