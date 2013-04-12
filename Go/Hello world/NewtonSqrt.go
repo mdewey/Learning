@@ -5,6 +5,9 @@ import(
 "math"
 )
 
+type ErrNeg float64 {
+}
+
 func Sqrt(x float64) (z float64) {
     z = float64(1)
     lastZ := float64(0)

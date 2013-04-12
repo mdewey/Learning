@@ -50,7 +50,7 @@ class GeneticAlgorithm:
 			#mutates 5% of the time
 			map(self.mutate, self.population)
 
-	#mutates the chromo up to the max
+	#mutates the chromo up to the max *change here to solve a real problem
 	def mutate(self, chromosome):
 		chance = randint(0,100)
 		if (chance <= self.mutateChance):
@@ -77,7 +77,7 @@ class GeneticAlgorithm:
 				if minFitness < i.fitness:
 					return i
 		
-	#cross breed 2 chromosome
+	#cross breed 2 chromosome 
 	def mate(self, mom, dad):
 		#make empty child
 		child = myChromosome(self.chromosomeLength, True)
@@ -89,7 +89,7 @@ class GeneticAlgorithm:
 		self.findFitness(child)
 		return child
 		
-	#find the fitness of a chromosome	
+	#find the fitness of a chromosome *change here to solve a real problem	
 	def findFitness(self, chromoX):
 		chromoX.fitness = 0
 		for gene in chromoX.chromo:
