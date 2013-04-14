@@ -41,17 +41,22 @@ var apiKey = "AIzaSyAFc9plC-1Vr4d5K8apxueCUFBZ9Asmymc"
 var googleUrl = "https://www.googleapis.com/customsearch/v1?key=%s&cx=%s&q=%s"
 
 //consts
-var wordList = []*Word{{"this", 0, 0}}
+
 var puncsToRemove = []string{".", ",", "'", "?", "!"}
 
 func main() {
-	allWords := "This course is about building 'web-intelligence' course applications exploiting big data sources arising social media, mobile devices and sensors, using new big-data platforms based on the 'map-reduce' parallel programming paradigm. The course is being offered"
+	allWords := "This course is about building " //'web-intelligence' course applications exploiting big data sources arising social media, mobile devices and sensors, using new big-data platforms based on the 'map-reduce' parallel programming paradigm. The course is being offered"
+	results := doTFIDF(allWords)
+	printTopWords(results, 10)
+}
 
-	words := strings.Fields(allWords)
+func doTFIDF(stringSearch string) []*Word {
 
+	words := strings.Fields(stringSearch)
+	var wordList = []*Word{{"this", 0, 0}}
 	for i := 0; i < len(words); i++ {
 		wordToAdd := stripPuncuation(strings.ToLower(words[i]))
-		pos := isWordInSlice(wordToAdd)
+		pos := isWordInSlice(wordToAdd, wordList)
 		if pos < 0 {
 			//new word
 			wordList = Append(wordList, Word{wordToAdd, 1, 0})
@@ -68,8 +73,7 @@ func main() {
 
 	//sort based on TF_IDF
 	sort.Sort(ByIt_idf{wordList})
-	printWords(wordList)
-
+	return wordList
 }
 
 func stripPuncuation(word string) string {
@@ -81,7 +85,7 @@ func stripPuncuation(word string) string {
 
 }
 
-func isWordInSlice(word string) int {
+func isWordInSlice(word string, wordList []*Word) int {
 	for p, v := range wordList {
 		if v != nil {
 			if strings.ToLower(v.thisWord) == strings.ToLower(word) {
