@@ -1,10 +1,15 @@
 package main
 
 import (
+	"encoding/json"
 	"fmt"
+	"io/ioutil"
 	"math"
+	"net/http"
 	"sort"
 	"strings"
+
+	"strconv"
 )
 
 type Word struct {
@@ -30,11 +35,13 @@ func (s ByIt_idf) Less(i, j int) bool {
 
 //end of sorting stuff
 
-//consts
-var wordList = []*Word{{"this", 0, 0}}
+//google search api stuff
 var cx = "012766819612763970466:kh5frtpar8i"
 var apiKey = "AIzaSyAFc9plC-1Vr4d5K8apxueCUFBZ9Asmymc"
-var googleUrl = "GET https://www.googleapis.com/customsearch/v1?key=%s&cx=%s&q=%s"
+var googleUrl = "https://www.googleapis.com/customsearch/v1?key=%s&cx=%s&q=%s"
+
+//consts
+var wordList = []*Word{{"this", 0, 0}}
 var puncsToRemove = []string{".", ",", "'", "?", "!"}
 
 func main() {
@@ -61,7 +68,7 @@ func main() {
 
 	//sort based on TF_IDF
 	sort.Sort(ByIt_idf{wordList})
-	printTopWords(wordList, 5)
+	printWords(wordList)
 
 }
 
@@ -105,11 +112,21 @@ func calculateTF_IDF(word *Word) float64 {
 }
 
 func getHits(word string) float64 {
-	//url := fmt.Sprintf(googleUrl, apiKey, cx, word)
-	//TODO: post to this url and read response
-	//fmt.Println(url)
-	//TODO: return count
-	return 2000000000
+	url := fmt.Sprintf(googleUrl, apiKey, cx, word)
+	//post to this url and read response
+	resp, _ := http.Get(url)
+	body, _ := ioutil.ReadAll(resp.Body)
+
+	var jsonData interface{}
+	err := json.Unmarshal(body, &jsonData)
+	if err == nil {
+		m := jsonData.(map[string]interface{})
+		searchInformation := m["searchInformation"].(map[string]interface{})
+
+		rv, _ := strconv.ParseFloat(searchInformation["totalResults"].(string), 64)
+		return rv
+	}
+	return 0
 }
 
 func printWords(s []*Word) {
