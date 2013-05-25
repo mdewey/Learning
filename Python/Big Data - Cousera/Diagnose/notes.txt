@@ -1,0 +1,25 @@
+P(t|a) * xp(e|as) * p(x|as) * p(l|s) * p(b|s) * p(d|as) * p(a) * p(s)
+
+given a = y & x = Y, what disease is most likely....
+
+ find p(t) & p(b) & p(l)
+ 
+ 
+ SELECT R, SUM(P*P) FROM T1R,w, T2R where W=y
+ 
+ 
+SELECT Turberculosis.t, sum(p*p)
+FROM 8 tables
+WHERE
+	asia.a = tuberculosis.a AND 
+	xRay.e = either.e AND
+	either.t = tuberculosis.t
+	
+sortby
+	tuberculosis.t
+
+	
+
+WHERE T = y
+
+SELECT tuberculosis.t, SUM(asia.p * tuberculosis.p * smoking.p * lungCancer.p * eitherTubOrLung.p * dyspnoea.p * xRay.p * bronchitis ) FROM asia, tuberculosis, smoking, lungCancer, eitherTubOrLung, dyspnoea, xRay, bronchitis WHERE [EVEIDNEC GOES HERE] AND tuberculosis.t = 'y' AND asia.a = tuberculosis.a AND tuberculosis.t = either.t AND either.e = xRay.e AND either.l = lung.l AND	smoking.s = lung.s AND smoking.s = bronchitis.s AND bronchitis.b = dyspnnea.B AND dyspnnea.e = either.e GROUP BY tuberculosis.t
