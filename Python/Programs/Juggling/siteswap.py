@@ -1,4 +1,4 @@
-from random import randint
+from random import randint, choice
 
 def ValidatePattern(pattern):
 	patternAsList = map(int, pattern)
@@ -9,9 +9,7 @@ def isWhole(num):
 	return(num%1 == 0)
 		
 def GeneratePattern(len):
-	rv = ""
-	for i in range(1, len):
-		rv += str(randint(0,7))
+	rv = "".join(choice("01234567") for i in range(1, len))
 	return rv
 		
 def GenerateValidRandomPattern():
@@ -28,5 +26,3 @@ def GenerateValidRandomPattern():
 			print "balls" , numberOfBalls
 			print "beats" , len(rightPattern)
 			return rightPattern, numberOfBalls,len(rightPattern)
-	
-	
