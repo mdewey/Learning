@@ -1,0 +1,2210 @@
+Standard ML of New Jersey v110.76 [built: Sun Jul 14 09:59:19 2013]
+- use "hw1test.sml";
+[opening hw1test.sml]
+[opening homework1.sml]
+[autoloading]
+[library $SMLNJ-BASIS/basis.cm is stable]
+[autoloading done]
+val is_older = fn : (int * int * int) * (int * int * int) -> bool
+val number_in_month = fn : (int * int * int) list * int -> int
+val number_in_months = fn : (int * int * int) list * int list -> int
+val dates_in_month = fn
+  : (int * int * int) list * int -> (int * int * int) list
+val dates_in_months = fn
+  : (int * int * int) list * int list -> (int * int * int) list
+val get_nth = fn : string list * int -> string
+val date_to_string = fn : int * int * int -> string
+val number_before_reaching_sum = fn : int * int list -> int
+val what_month = fn : int -> int
+val month_range = fn : int * int -> int list
+val oldest = fn : (int * int * int) list -> (int * int * int) option
+val it = () : unit
+val test11 = <hidden-value> : bool
+val test12 = true : bool
+val test13 = true : bool
+val test14 = true : bool
+val test15 = true : bool
+val test16 = true : bool
+val test17 = true : bool
+val test21 = true : bool
+val test22 = true : bool
+val test23 = true : bool
+val test24 = true : bool
+val test31 = true : bool
+val test32 = true : bool
+val test40 = true : bool
+val test41 = true : bool
+val test42 = true : bool
+val test43 = true : boolval test44 = true : bool
+val test51 = true : bool
+val test52 = true : bool
+val test6 = true : bool
+val test7 = true : bool
+val test8 = false : bool
+val test9 = true : bool
+val test91 = true : bool
+val test10 = false : bool
+val test101 = [1,1,1,2] : int list
+val test11 = false : bool
+val test111 = SOME (2012,2,28) : (int * int * int) option
+val it = () : unit
+- val test43 = true : boolval test44 = true : bool
+= 
+= stdIn:2.36 Error: syntax error found at EQUALOP
+- 
+
+Process sml finished
+Standard ML of New Jersey v110.76 [built: Sun Jul 14 09:59:19 2013]
+- use "hw1tests.sml";
+[opening hw1tests.sml]
+[use failed: Io: openIn failed on "hw1tests.sml", Win32TextPrimIO:openRd: failed]
+
+uncaught exception Error
+  raised at: ../compiler/TopLevel/interact/interact.sml:24.14-24.28
+- use "hw1test.sml";
+[opening hw1test.sml]
+[opening homework1.sml]
+[autoloading]
+[library $SMLNJ-BASIS/basis.cm is stable]
+[autoloading done]
+val is_older = fn : (int * int * int) * (int * int * int) -> bool
+val number_in_month = fn : (int * int * int) list * int -> int
+val number_in_months = fn : (int * int * int) list * int list -> int
+val dates_in_month = fn
+  : (int * int * int) list * int -> (int * int * int) list
+val dates_in_months = fn
+  : (int * int * int) list * int list -> (int * int * int) list
+val get_nth = fn : string list * int -> string
+val date_to_string = fn : int * int * int -> string
+val number_before_reaching_sum = fn : int * int list -> int
+val what_month = fn : int -> int
+val month_range = fn : int * int -> int list
+val oldest = fn : (int * int * int) list -> (int * int * int) option
+val it = () : unit
+val test11 = <hidden-value> : bool
+val test12 = true : bool
+val test13 = true : bool
+val test14 = true : bool
+val test15 = true : bool
+val test16 = true : bool
+val test17 = true : bool
+val test21 = true : bool
+val test22 = true : bool
+val test23 = true : bool
+val test24 = true : bool
+val test31 = true : bool
+val test32 = true : bool
+val test40 = true : bool
+val test41 = true : bool
+val test42 = true : bool
+val test43 = true : bool
+val test44 = true : bool
+val test51 = true : bool
+val test52 = true : bool
+val test6 = true : bool
+val test7 = true : bool
+val test8 = false : bool
+val test81 = false : bool
+val test9 = true : bool
+val test91 = true : bool
+val test10 = false : bool
+val test101 = [1,1,1,2] : int list
+val test11 = false : bool
+val test111 = SOME (2012,2,28) : (int * int * int) option
+val it = () : unit
+- 
+
+Process sml finished
+Standard ML of New Jersey v110.76 [built: Sun Jul 14 09:59:19 2013]
+- use "hw1test.sml";
+[opening hw1test.sml]
+[opening homework1.sml]
+[autoloading]
+[library $SMLNJ-BASIS/basis.cm is stable]
+[autoloading done]
+val is_older = fn : (int * int * int) * (int * int * int) -> bool
+val number_in_month = fn : (int * int * int) list * int -> int
+val number_in_months = fn : (int * int * int) list * int list -> int
+val dates_in_month = fn
+  : (int * int * int) list * int -> (int * int * int) list
+val dates_in_months = fn
+  : (int * int * int) list * int list -> (int * int * int) list
+val get_nth = fn : string list * int -> string
+val date_to_string = fn : int * int * int -> string
+val number_before_reaching_sum = fn : int * int list -> int
+val what_month = fn : int -> int
+val month_range = fn : int * int -> int list
+val oldest = fn : (int * int * int) list -> (int * int * int) option
+val it = () : unit
+val test11 = <hidden-value> : bool
+val test12 = true : bool
+val test13 = true : bool
+val test14 = true : bool
+val test15 = true : bool
+val test16 = true : bool
+val test17 = true : bool
+val test21 = true : bool
+val test22 = true : bool
+val test23 = true : bool
+val test24 = true : bool
+val test31 = true : bool
+val test32 = true : bool
+val test40 = true : bool
+val test41 = true : bool
+val test42 = true : bool
+val test43 = true : bool
+val test44 = true : bool
+val test51 = true : bool
+val test52 = true : bool
+val test6 = true : bool
+val test7 = true : bool
+val test8 = false : bool
+val test81 = false : bool
+val test9 = true : bool
+val test91 = false : bool
+val test10 = false : bool
+val test101 = [2,2,2,3] : int list
+val test11 = false : bool
+val test111 = SOME (2012,2,28) : (int * int * int) option
+val it = () : unit
+- 
+
+Process sml finished
+Standard ML of New Jersey v110.76 [built: Sun Jul 14 09:59:19 2013]
+- use "hw1test.sml";
+[opening hw1test.sml]
+[opening homework1.sml]
+[autoloading]
+[library $SMLNJ-BASIS/basis.cm is stable]
+[autoloading done]
+val is_older = fn : (int * int * int) * (int * int * int) -> bool
+val number_in_month = fn : (int * int * int) list * int -> int
+val number_in_months = fn : (int * int * int) list * int list -> int
+val dates_in_month = fn
+  : (int * int * int) list * int -> (int * int * int) list
+val dates_in_months = fn
+  : (int * int * int) list * int list -> (int * int * int) list
+val get_nth = fn : string list * int -> string
+val date_to_string = fn : int * int * int -> string
+val number_before_reaching_sum = fn : int * int list -> int
+val what_month = fn : int -> int
+val month_range = fn : int * int -> int list
+val oldest = fn : (int * int * int) list -> (int * int * int) option
+val it = () : unit
+val test11 = <hidden-value> : bool
+val test12 = true : bool
+val test13 = true : bool
+val test14 = true : bool
+val test15 = true : bool
+val test16 = true : bool
+val test17 = true : bool
+val test21 = true : bool
+val test22 = true : bool
+val test23 = true : bool
+val test24 = true : bool
+val test31 = true : bool
+val test32 = true : bool
+val test40 = true : bool
+val test41 = true : bool
+val test42 = true : bool
+val test43 = true : bool
+val test44 = true : boolval test51 = true : bool
+val test52 = true : bool
+val test6 = true : bool
+val test7 = true : bool
+val test8 = false : bool
+val test81 = false : bool
+val test9 = true : bool
+val test91 = false : bool
+val test10 = false : bool
+val test101 = [2,2,2,3] : int list
+val test11 = false : bool
+val test111 = SOME (2012,2,28) : (int * int * int) option
+val it = () : unit
+- val test44 = true : boolval test51 = true : bool
+= 
+= stdIn:2.36 Error: syntax error found at EQUALOP
+- 
+
+Process sml finished
+Standard ML of New Jersey v110.76 [built: Sun Jul 14 09:59:19 2013]
+- use "hw1test.sml";
+[opening hw1test.sml]
+[opening homework1.sml]
+[autoloading]
+[library $SMLNJ-BASIS/basis.cm is stable]
+[autoloading done]
+val is_older = fn : (int * int * int) * (int * int * int) -> bool
+val number_in_month = fn : (int * int * int) list * int -> int
+val number_in_months = fn : (int * int * int) list * int list -> int
+val dates_in_month = fn
+  : (int * int * int) list * int -> (int * int * int) list
+val dates_in_months = fn
+  : (int * int * int) list * int list -> (int * int * int) list
+val get_nth = fn : string list * int -> string
+val date_to_string = fn : int * int * int -> string
+val number_before_reaching_sum = fn : int * int list -> int
+val what_month = fn : int -> int
+val month_range = fn : int * int -> int list
+val oldest = fn : (int * int * int) list -> (int * int * int) option
+val it = () : unit
+val test11 = <hidden-value> : bol
+val test12 = true : bool
+val test13 = true : bool
+val test14 = true : bool
+val test15 = true : bool
+val test16 = true : bool
+val test17 = true : bool
+val test21 = true : bool
+val test22 = true : bool
+val test23 = true : bool
+val test24 = true : bool
+val test31 = true : bool
+val test32 = true : bool
+val test40 = true : bool
+val test41 = true : bool
+val test42 = true : bool
+val test43 = true : bool
+val test44 = true : bool
+val test51 = true : bool
+val test52 = true : bool
+val test6 = true : bool
+val test7 = true : bool
+val test8 = true : bool
+val test81 = false : bool
+val test9 = false : bool
+val test91 = true : bool
+val test10 = false : bool
+val test101 = [1,1,1,2] : int list
+val test11 = false : bool
+val test111 = SOME (2012,2,28) : (int * int * int) option
+val it = () : unit
+- val test11 = <hidden-value> : bol
+= 
+= 
+= stdIn:2.14 Error: expression or pattern begins with infix identifier "<"
+stdIn:2.28 Error: expression or pattern ends with infix identifier ">"
+stdIn:2.22-2.27 Error: unbound variable or constructor: value
+stdIn:2.15-2.21 Error: unbound variable or constructor: hidden
+stdIn:2.31-2.34 Error: unbound type constructor: bol
+stdIn:2.5-2.34 Error: operator is not a function [tycon mismatch]
+  operator: bool
+  in expression:
+    (< <errorvar> - <errorvar>) >
+stdIn:2.21 Error: overloaded variable not defined at type
+  symbol: -
+  type: bool
+- 
+
+Process sml finished
+Standard ML of New Jersey v110.76 [built: Sun Jul 14 09:59:19 2013]
+- use "hw1test.sml":
+= ;
+= stdIn:2.1 Error: syntax error found at SEMICOLON
+- 
+us
+Process sml finished
+Standard ML of New Jersey v110.76 [built: Sun Jul 14 09:59:19 2013]
+- use "hw1.test.sml";
+[opening hw1.test.sml]
+[use failed: Io: openIn failed on "hw1.test.sml", Win32TextPrimIO:openRd: failed]
+
+uncaught exception Error
+  raised at: ../compiler/TopLevel/interact/interact.sml:24.14-24.28
+- us
+Process sml finished
+
+= 
+= 
+= 
+= use "hw1test.sml";
+stdIn:1.2-1.4 Error: unbound variable or constructor: us
+stdIn:2.1-2.8 Error: unbound variable or constructor: Process
+stdIn:2.9-2.12 Error: unbound variable or constructor: sml
+stdIn:2.13-2.21 Error: unbound variable or constructor: finished
+- 
+
+Process sml finished
+Standard ML of New Jersey v110.76 [built: Sun Jul 14 09:59:19 2013]
+- use "hw1test.sml";
+[opening hw1test.sml]
+[opening homework1.sml]
+[autoloading]
+[library $SMLNJ-BASIS/basis.cm is stable]
+[autoloading done]
+val is_older = fn : (int * int * int) * (int * int * int) -> bool
+val number_in_month = fn : (int * int * int) list * int -> int
+val number_in_months = fn : (int * int * int) list * int list -> int
+val dates_in_month = fn
+  : (int * int * int) list * int -> (int * int * int) list
+val dates_in_months = fn
+  : (int * int * int) list * int list -> (int * int * int) list
+val get_nth = fn : string list * int -> string
+val date_to_string = fn : int * int * int -> string
+val number_before_reaching_sum = fn : int * int list -> int
+val what_month = fn : int -> int
+val month_range = fn : int * int -> int list
+val oldest = fn : (int * int * int) list -> (int * int * int) option
+val it = () : unit
+val test11 = <hidden-value> : bool
+val test12 = true : bool
+val test13 = true : bool
+val test14 = true : bool
+val test15 = true : bool
+val test16 = true : bool
+val test17 = true : bool
+val test21 = true : bool
+val test22 = true : bool
+val test23 = true : bool
+val test24 = true : bool
+val test31 = true : bool
+val test32 = true : boolval test40 = true : bool
+val test41 = true : bool
+val test42 = true : bool
+val test43 = true : bool
+val test44 = true : bool
+val test51 = true : bool
+val test52 = true : bool
+val test6 = true : bool
+val test7 = true : bool
+val test8 = false : bool
+val test81 = false : bool
+val test9 = false : bool
+val test91 = false : bool
+val test10 = false : bool
+val test101 = [3,3,4,4] : int list
+val test11 = false : bool
+val test111 = SOME (2012,2,28) : (int * int * int) option
+val it = () : unit
+- val test32 = true : boolval test40 = true : bool
+= 
+= 
+= stdIn:2.36 Error: syntax error found at EQUALOP
+- 
+
+Process sml finished
+Standard ML of New Jersey v110.76 [built: Sun Jul 14 09:59:19 2013]
+- use "hw1test.sml";
+[opening hw1test.sml]
+[opening homework1.sml]
+[autoloading]
+[library $SMLNJ-BASIS/basis.cm is stable]
+[autoloading done]
+val is_older = fn : (int * int * int) * (int * int * int) -> bool
+val number_in_month = fn : (int * int * int) list * int -> int
+val number_in_months = fn : (int * int * int) list * int list -> int
+val dates_in_month = fn
+  : (int * int * int) list * int -> (int * int * int) list
+val dates_in_months = fn
+  : (int * int * int) list * int list -> (int * int * int) list
+val get_nth = fn : string list * int -> string
+val date_to_string = fn : int * int * int -> string
+val number_before_reaching_sum = fn : int * int list -> int
+val what_month = fn : int -> int
+val month_range = fn : int * int -> int list
+val oldest = fn : (int * int * int) list -> (int * int * int) option
+val it = () : unit
+val test11 = <hidden-value> : bool
+val test12 = true : bool
+val test13 = true : bool
+val test14 = true : bool
+val test15 = true : bool
+val test16 = true : bool
+val test17 = true : bool
+val test21 = true : bool
+val test22 = true : bool
+val test23 = true : bool
+val test24 = true : bool
+val test31 = true : bool
+val test32 = true : bool
+val test40 = true : bool
+val test41 = true : bool
+val test42 = true : bool
+val test43 = true : bool
+val test44 = true : bool
+val test51 = true : bool
+val test52 = true : bool
+val test6 = true : bool
+val test7 = true : bool
+val test8 = false : bool
+val test81 = false : bool
+val test82 = 6 : int
+val test83 = 6 : int
+val test9 = false : bool
+val test91 = false : bool
+val test10 = false : bool
+val test101 = [3,3,4,4] : int list
+val test11 = false : bool
+val test111 = SOME (2012,2,28) : (int * int * int) option
+val it = () : unit
+- 
+
+Process sml finished
+Standard ML of New Jersey v110.76 [built: Sun Jul 14 09:59:19 2013]
+- use "hw1test.sml";
+[opening hw1test.sml]
+[opening homework1.sml]
+[autoloading]
+[library $SMLNJ-BASIS/basis.cm is stable]
+[autoloading done]
+val is_older = fn : (int * int * int) * (int * int * int) -> bool
+val number_in_month = fn : (int * int * int) list * int -> int
+val number_in_months = fn : (int * int * int) list * int list -> int
+val dates_in_month = fn
+  : (int * int * int) list * int -> (int * int * int) list
+val dates_in_months = fn
+  : (int * int * int) list * int list -> (int * int * int) list
+val get_nth = fn : string list * int -> string
+val date_to_string = fn : int * int * int -> string
+val number_before_reaching_sum = fn : int * int list -> int
+val what_month = fn : int -> int
+val month_range = fn : int * int -> int list
+val oldest = fn : (int * int * int) list -> (int * int * int) option
+val it = () : unit
+val test11 = <hidden-value> : bool
+val test12 = true : bool
+val test13 = true : bool
+val test14 = true : bool
+val test15 = true : bool
+val test16 = true : bool
+val test17 = true : bool
+val test21 = true : bool
+val test22 = true : bool
+val test23 = true : bool
+val test24 = true : bool
+val test31 = true : bool
+val test32 = true : bool
+val test40 = true : bool
+val test41 = true : bool
+val test42 = true : bool
+val test43 = true : bool
+val test44 = true : bool
+val test51 = true : bool
+val test52 = true : bool
+val test6 = true : bool
+val test7 = true : bool
+val test8 = false : bool
+val test81 = false : bool
+val test82 = 5 : int
+val test83 = 6 : int
+val test9 = false : bool
+val test91 = false : bool
+val test10 = false : bool
+val test101 = [3,3,3,4] : int list
+val test11 = false : bool
+val test111 = SOME (2012,2,28) : (int * int * int) option
+val it = () : unit
+- 
+- 
+- 
+
+Process sml finished
+Standard ML of New Jersey v110.76 [built: Sun Jul 14 09:59:19 2013]
+- use "hw1test.sml":
+= ;
+= stdIn:2.1 Error: syntax error found at SEMICOLON
+- 
+Process sml finished
+Standard ML of New Jersey v110.76 [built: Sun Jul 14 09:59:19 2013]
+- use "hw1test.sml";
+[opening hw1test.sml]
+[opening homework1.sml]
+[autoloading]
+[library $SMLNJ-BASIS/basis.cm is stable]
+[autoloading done]
+homework1.sml:59.7-59.37 Error: operator and operand don't agree [tycon mismatch]
+  operator domain: int * int list * int
+  operand:         int * int list * int * int
+  in expression:
+    helper (sum,ints,hd ints,1)
+
+uncaught exception Error
+  raised at: ../compiler/TopLevel/interact/evalloop.sml:66.19-66.27
+             ../compiler/TopLevel/interact/evalloop.sml:44.55
+             ../compiler/TopLevel/interact/evalloop.sml:296.17-296.20
+- Process sml finished
+
+= stdIn:1.2-1.9 Error: unbound variable or constructor: Process
+stdIn:1.10-1.13 Error: unbound variable or constructor: sml
+stdIn:1.14-1.22 Error: unbound variable or constructor: finished
+- 
+
+Process sml finished
+Standard ML of New Jersey v110.76 [built: Sun Jul 14 09:59:19 2013]
+- use "hw1test.sml";
+[opening hw1test.sml]
+[opening homework1.sml]
+[autoloading]
+[library $SMLNJ-BASIS/basis.cm is stable]
+[autoloading done]
+val is_older = fn : (int * int * int) * (int * int * int) -> bool
+val number_in_month = fn : (int * int * int) list * int -> int
+val number_in_months = fn : (int * int * int) list * int list -> int
+val dates_in_month = fn
+  : (int * int * int) list * int -> (int * int * int) list
+val dates_in_months = fn
+  : (int * int * int) list * int list -> (int * int * int) list
+val get_nth = fn : string list * int -> string
+val date_to_string = fn : int * int * int -> string
+val number_before_reaching_sum = fn : int * int list -> int
+val what_month = fn : int -> int
+val month_range = fn : int * int -> int list
+val oldest = fn : (int * int * int) list -> (int * int * int) option
+val it = () : unit
+val test11 = <hidden-value> : bool
+val test12 = true : bool
+val test13 = true : bool
+val test14 = true : bool
+val test15 = true : bool
+val test16 = true : bool
+val test17 = true : bool
+val test21 = true : bool
+val test22 = true : bool
+val test23 = true : bool
+val test24 = true : bool
+val test31 = true : bool
+val test32 = true : bool
+val test40 = true : bool
+val test41 = true : bool
+val test42 = true : bool
+val test43 = true : bool
+val test44 = true : bool
+val test51 = true : bool
+val test52 = true : bool
+val test6 = true : bool
+val test7 = true : bool
+val test8 = true : bool
+val test81 = true : bool
+val test82 = 3 : int
+val test83 = 4 : int
+val test9 = false : bool
+val test91 = true : bool
+val test10 = false : bool
+val test101 = [1,1,1,2] : int list
+val test11 = false : bool
+val test111 = SOME (2012,2,28) : (int * int * int) option
+val it = () : unit
+-
+
+Process sml finished
+Standard ML of New Jersey v110.76 [built: Sun Jul 14 09:59:19 2013]
+- use "hw1test.sml"
+= ;
+[opening hw1test.sml]
+[opening homework1.sml]
+[autoloading]
+[library $SMLNJ-BASIS/basis.cm is stable]
+[autoloading done]
+val is_older = fn : (int * int * int) * (int * int * int) -> bool
+val number_in_month = fn : (int * int * int) list * int -> int
+val number_in_months = fn : (int * int * int) list * int list -> int
+val dates_in_month = fn
+  : (int * int * int) list * int -> (int * int * int) list
+val dates_in_months = fn
+  : (int * int * int) list * int list -> (int * int * int) list
+val get_nth = fn : string list * int -> string
+val date_to_string = fn : int * int * int -> string
+val number_before_reaching_sum = fn : int * int list -> int
+val what_month = fn : int -> int
+val month_range = fn : int * int -> int list
+val oldest = fn : (int * int * int) list -> (int * int * int) option
+val it = () : unit
+val test11 = <hidden-value> : bool
+val test12 = true : bool
+val test13 = true : bool
+val test14 = true : bool
+val test15 = true : bool
+val test16 = true : bool
+val test17 = true : bool
+val test21 = true : bool
+val test22 = true : bool
+val test23 = true : bool
+val test24 = true : bool
+val test31 = true : bool
+val test32 = true : bool
+val test40 = true : bool
+val test41 = true : bool
+val test42 = true : bool
+val test43 = true : bool
+val test44 = true : bool
+val test51 = true : bool
+val test52 = true : bool
+val test6 = true : bool
+val test7 = true : bool
+val test8 = true : bool
+val test81 = true : bool
+val test84 = true : bool
+val test85 = true : bool
+val test86 = true : bool
+val test87 = true : bool
+val test88 = false : bool
+val test9 = false : bool
+val test9b = 2 : int
+val test91 = true : bool
+val test10 = false : bool
+val test101 = [1,1,1,2] : int list
+val test11 = false : bool
+val test111 = SOME (2012,2,28) : (int * int * int) option
+val it = () : unit
+- val test9b = 2 : int
+= val test9b = 2 : int
+
+
+Process sml finished
+Standard ML of New Jersey v110.76 [built: Sun Jul 14 09:59:19 2013]
+- use "hw1test.sml";
+[opening hw1test.sml]
+[opening homework1.sml]
+[autoloading]
+[library $SMLNJ-BASIS/basis.cm is stable]
+[autoloading done]
+val is_older = fn : (int * int * int) * (int * int * int) -> bool
+val number_in_month = fn : (int * int * int) list * int -> int
+val number_in_months = fn : (int * int * int) list * int list -> int
+val dates_in_month = fn
+  : (int * int * int) list * int -> (int * int * int) list
+val dates_in_months = fn
+  : (int * int * int) list * int list -> (int * int * int) list
+val get_nth = fn : string list * int -> string
+val date_to_string = fn : int * int * int -> string
+val number_before_reaching_sum = fn : int * int list -> int
+val what_month = fn : int -> int
+val month_range = fn : int * int -> int list
+val oldest = fn : (int * int * int) list -> (int * int * int) option
+val it = () : unit
+val test11 = <hidden-value> : bool
+val test12 = true : bool
+val test13 = true : bool
+val test14 = true : bool
+val test15 = true : bool
+val test16 = true : bool
+val test17 = true : bool
+val test21 = true : bool
+val test22 = true : bool
+val test23 = true : bool
+val test24 = true : bool
+val test31 = true : bool
+val test32 = true : bool
+val test40 = true : bool
+val test41 = true : bool
+val test42 = true : bool
+val test43 = true : bool
+val test44 = true : bool
+val test51 = true : bool
+val test52 = true : bool
+val test6 = true : bool
+val test7 = true : bool
+val test8 = true : bool
+val test81 = true : bool
+val test84 = true : boolval test85 = true : bool
+val test86 = true : bool
+val test87 = true : bool
+val test88 = false : bool
+val test9 = true : bool
+val test9b = 3 : int
+val test91 = false : bool
+val test10 = false : bool
+val test101 = [2,2,2,3] : int list
+val test11 = false : bool
+val test111 = SOME (2012,2,28) : (int * int * int) option
+val it = () : unit
+- val test84 = true : boolval test85 = true : boolstdIn:2.36 Error: syntax error found at EQUALOP
+- 
+
+Process sml finished
+Standard ML of New Jersey v110.76 [built: Sun Jul 14 09:59:19 2013]
+- use "hw1test.sml";
+[opening hw1test.sml]
+[opening homework1.sml]
+[autoloading]
+[library $SMLNJ-BASIS/basis.cm is stable]
+[autoloading done]
+val is_older = fn : (int * int * int) * (int * int * int) -> bool
+val number_in_month = fn : (int * int * int) list * int -> int
+val number_in_months = fn : (int * int * int) list * int list -> int
+val dates_in_month = fn
+  : (int * int * int) list * int -> (int * int * int) list
+val dates_in_months = fn
+  : (int * int * int) list * int list -> (int * int * int) list
+val get_nth = fn : string list * int -> string
+val date_to_string = fn : int * int * int -> string
+val number_before_reaching_sum = fn : int * int list -> int
+val what_month = fn : int -> int
+val month_range = fn : int * int -> int list
+val oldest = fn : (int * int * int) list -> (int * int * int) option
+val it = () : unit
+val test11 = <hidden-value> : bool
+val test12 = true : bool
+val test13 = true : bool
+val test14 = true : bool
+val test15 = true : bool
+val test16 = true : bool
+val test17 = true : bool
+val test21 = true : bool
+val test22 = true : bool
+val test23 = true : bool
+val test24 = true : bool
+val test31 = true : bool
+val test32 = true : bool
+val test40 = true : bool
+val test41 = true : bool
+val test42 = true : bool
+val test43 = true : bool
+val test44 = true : bool
+val test51 = true : bool
+val test52 = true : bool
+val test6 = true : bool
+val test7 = true : bool
+val test8 = true : bool
+val test81 = true : bool
+val test84 = true : bool
+val test85 = true : bool
+val test86 = true : bool
+val test87 = true : bool
+val test88 = alse : bool
+val test9 = true : bool
+val test9b = 3 : int
+val test91 = false : bool
+val test10 = false : bool
+val test101 = [2,2,2,3] : int list
+val test11 = false : bool
+val test111 = SOME (2012,2,28) : (int * int * int) option
+val it = () : unit
+- val test88 = alse : bool
+= 
+= stdIn:2.14-2.18 Error: unbound variable or constructor: alse
+- 
+
+Process sml finished
+Standard ML of New Jersey v110.76 [built: Sun Jul 14 09:59:19 2013]
+- use "hw1test.sml";
+[opening hw1test.sml]
+[opening homework1.sml]
+[autoloading]
+[library $SMLNJ-BASIS/basis.cm is stable]
+[autoloading done]
+val is_older = fn : (int * int * int) * (int * int * int) -> bool
+val number_in_month = fn : (int * int * int) list * int -> int
+val number_in_months = fn : (int * int * int) list * int list -> int
+val dates_in_month = fn
+  : (int * int * int) list * int -> (int * int * int) list
+val dates_in_months = fn
+  : (int * int * int) list * int list -> (int * int * int) list
+val get_nth = fn : string list * int -> string
+val date_to_string = fn : int * int * int -> string
+val number_before_reaching_sum = fn : int * int list -> int
+val what_month = fn : int -> int
+val month_range = fn : int * int -> int list
+val oldest = fn : (int * int * int) list -> (int * int * int) option
+val it = () : unit
+val test11 = <hidden-value> : bool
+val test12 = true : bool
+val test13 = true : bool
+val test14 = true : bool
+val test15 = true : bool
+val test16 = true : bool
+val test17 = true : bool
+val test21 = true : bool
+val test22 = true : bool
+val test23 = true : bool
+val test24 = true : bool
+val test31 = true : bool
+val test32 = true : bool
+val test40 = true : bool
+val test41 = true : bool
+val test42 = true : bool
+val test43 = true : bool
+val test44 = true : bool
+val test51 = true : bool
+val test52 = true : bool
+val test6 = true : bool
+val test7 = true : bool
+val test8 = true : bool
+val test81 = true : bool
+val test84 = true : bool
+val test85 = true : bool
+val test86 = true : bool
+val test87 = true : bool
+val test9 = false : bool
+val test9b = 2 : int
+val test91 = true : bool
+val test91b = 1 : int
+val test10 = true : bool
+val test101 = [1,2,2,2] : int list
+val test11 = false : bool
+val test111 = SOME (2012,2,28) : (int * int * int) option
+val it = () : unit
+- 
+
+Process sml finished
+Standard ML of New Jersey v110.76 [built: Sun Jul 14 09:59:19 2013]
+- use "hw1test.sml";
+[opening hw1test.sml]
+[opening homework1.sml]
+[autoloading]
+[library $SMLNJ-BASIS/basis.cm is stable]
+[autoloading done]
+val is_older = fn : (int * int * int) * (int * int * int) -> bool
+val number_in_month = fn : (int * int * int) list * int -> int
+val number_in_months = fn : (int * int * int) list * int list -> int
+val dates_in_month = fn
+  : (int * int * int) list * int -> (int * int * int) list
+val dates_in_months = fn
+  : (int * int * int) list * int list -> (int * int * int) list
+val get_nth = fn : string list * int -> string
+val date_to_string = fn : int * int * int -> string
+val number_before_reaching_sum = fn : int * int list -> int
+val what_month = fn : int -> int
+val month_range = fn : int * int -> int list
+val oldest = fn : (int * int * int) list -> (int * int * int) option
+val it = () : unit
+val test11 = <hidden-value> : bool
+val test12 = true : bool
+val test13 = true : bool
+val test14 = true : bool
+val test15 = true : bool
+val test16 = true : bool
+val test17 = true : bool
+val test21 = true : bool
+val test22 = true : bool
+val test23 = true : bool
+val test24 = true : bool
+val test31 = true : bool
+val test32 = true : boolval test40 = true : bool
+val test41 = true : bool
+val test42 = true : bool
+val test43 = true : bool
+val test44 = true : bool
+val test51 = true : bool
+val test52 = true : bool
+val test6 = true : bool
+val test7 = true : bool
+val test8 = true : bool
+val test81 = true : bool
+val test84 = true : bool
+val test85 = true : bool
+val test86 = true : bool
+val test87 = true : bool
+val test9 = false : bool
+val test9b = 1 : int
+val test91 = false : bool
+val test91b = 0 : int
+val test10 = false : bool
+val test101 = [0,1,1,1] : int list
+val test11 = false : bool
+val test111 = SOME (2012,2,28) : (int * int * int) option
+val it = () : unit
+- 
+
+Process sml finished
+Standard ML of New Jersey v110.76 [built: Sun Jul 14 09:59:19 2013]
+- use "hw1test.sml";
+[opening hw1test.sml]
+[opening homework1.sml]
+[autoloading]
+[library $SMLNJ-BASIS/basis.cm is stable]
+[autoloading done]
+val is_older = fn : (int * int * int) * (int * int * int) -> bool
+val number_in_month = fn : (int * int * int) list * int -> int
+val number_in_months = fn : (int * int * int) list * int list -> int
+val dates_in_month = fn
+  : (int * int * int) list * int -> (int * int * int) list
+val dates_in_months = fn
+  : (int * int * int) list * int list -> (int * int * int) list
+val get_nth = fn : string list * int -> string
+val date_to_string = fn : int * int * int -> string
+val number_before_reaching_sum = fn : int * int list -> int
+val what_month = fn : int -> int
+val month_range = fn : int * int -> int list
+val oldest = fn : (int * int * int) list -> (int * int * int) option
+val it = () : unit
+val test11 = <hidden-value> : bool
+val test12 = true : bool
+val test13 = true : bool
+val test14 = true : bool
+val test15 = true : bool
+val test16 = true : bool
+val test17 = true : bool
+val test21 = true : bool
+val test22 = true : bool
+val test23 = true : bool
+val test24 = true : bool
+val test31 = true : bool
+val test32 = true : bool
+val test40 = true : bool
+val test41 = true : bool
+val test42 = true : bool
+val test43 = true : bool
+val test44 = true : bool
+val test51 = true : boolal test52 = true : bool
+val test6 = true : bool
+val test7 = true : bool
+val test8 = true : bool
+val test81 = true : bool
+val test84 = true : bool
+val test85 = true : bool
+val test86 = true : bool
+val test87 = true : bool
+val test9 = false : bool
+val test9b = 1 : int
+val test91 = false : bool
+val test91b = 0 : int
+val test10 = false : bool
+val test101 = [0,1,1,1] : int list
+val test11 = false : bool
+val test111 = SOME (2012,2,28) : (int * int * int) option
+val it = () : unit
+- val test51 = true : boolal test52 = true : bool
+= 
+= stdIn:2.35 Error: syntax error found at EQUALOP
+- 
+
+Process sml finished
+Standard ML of New Jersey v110.76 [built: Sun Jul 14 09:59:19 2013]
+- use "hw1test.sml";
+[opening hw1test.sml]
+[opening homework1.sml]
+[autoloading]
+[library $SMLNJ-BASIS/basis.cm is stable]
+[autoloading done]
+val is_older = fn : (int * int * int) * (int * int * int) -> bool
+val number_in_month = fn : (int * int * int) list * int -> int
+val number_in_months = fn : (int * int * int) list * int list -> int
+val dates_in_month = fn
+  : (int * int * int) list * int -> (int * int * int) list
+val dates_in_months = fn
+  : (int * int * int) list * int list -> (int * int * int) list
+val get_nth = fn : string list * int -> string
+val date_to_string = fn : int * int * int -> string
+val number_before_reaching_sum = fn : int * int list -> int
+val what_month = fn : int -> int
+val month_range = fn : int * int -> int list
+val oldest = fn : (int * int * int) list -> (int * int * int) option
+val it = () : unit
+val test11 = <hidden-value> : bool
+val test12 = true : bool
+val test13 = true : bool
+val test14 = true : bool
+val test15 = true : bool
+val test16 = true : bool
+val test17 = true : bool
+val test21 = true : bool
+val test22 = true : bool
+val test23 = true : bool
+val test24 = true : bool
+val test31 = true : bool
+val test32 = true : bool
+val test40 = true : bool
+val test41 = true : bool
+val test42 = true : bool
+val test43 = true : bool
+val test44 = true : bool
+val test51 = true : bool
+val test52 = true : bool
+val test6 = true : bool
+val test7 = true : bool
+val test8 = true : bool
+val test81 = true : bool
+val test84 = true : bool
+val test85 = true : bool
+val test86 = true : bool
+val test87 = true : bool
+val test9 = false : bool
+val test9b = 2 : int
+val test91 = true : bool
+val test91b = 1 : int
+val test10 = true : bool
+val test101 = [1,2,2,2] : int list
+val test11 = false : bool
+val test111 = SOME (2012,2,28) : (int * int * int) option
+val it = () : unit
+- val test41 = true : bool
+= 
+= 
+= val test41 = true : bool
+
+
+Process sml finished
+Standard ML of New Jersey v110.76 [built: Sun Jul 14 09:59:19 2013]
+- use "hw1test.sml";
+[opening hw1test.sml]
+[opening homework1.sml]
+[autoloading]
+[library $SMLNJ-BASIS/basis.cm is stable]
+[autoloading done]
+val is_older = fn : (int * int * int) * (int * int * int) -> bool
+val number_in_month = fn : (int * int * int) list * int -> int
+val number_in_months = fn : (int * int * int) list * int list -> int
+val dates_in_month = fn
+  : (int * int * int) list * int -> (int * int * int) list
+val dates_in_months = fn
+  : (int * int * int) list * int list -> (int * int * int) list
+val get_nth = fn : string list * int -> string
+val date_to_string = fn : int * int * int -> string
+val number_before_reaching_sum = fn : int * int list -> int
+val what_month = fn : int -> int
+val month_range = fn : int * int -> int list
+val oldest = fn : (int * int * int) list -> (int * int * int) option
+val it = () : unit
+val test11 = <hidden-value> : bool
+val test12 = true : bool
+val test13 = true : bool
+val test14 = true : bool
+val test15 = true : bool
+val test16 = true : bool
+val test17 = true : bool
+val test21 = true : bool
+val test22 = true : bool
+val test23 = true : bool
+val test24 = true : bool
+val test31 = true : bool
+val test32 = true : bool
+val test40 = true : bool
+val test41 = true : bool
+val test42 = true : bool
+val test43 = true : bool
+val test44 = true : bool
+val test51 = true : bool
+val test52 = true : bool
+val test6 = true : bool
+val test7 = true : bool
+val test8 = true : bool
+val test81 = true : bool
+val test84 = true : bool
+val test85 = true : bool
+val test86 = true : bool
+val test87 = true : bool
+val test9 = false : bool
+val test9b = 2 : int
+val test91 = true : bool
+val test91b = 1 : int
+val test10 = false : bool
+val test101 = [1,1,2,2] : int list
+val test11 = false : bool
+val test111 = SOME (2012,2,28) : (int * int * int) option
+val it = () : unit
+- 
+- 
+
+Process sml finished
+Standard ML of New Jersey v110.76 [built: Sun Jul 14 09:59:19 2013]
+- use "hw1test.sml";
+[opening hw1test.sml]
+[opening homework1.sml]
+[autoloading]
+[library $SMLNJ-BASIS/basis.cm is stable]
+[autoloading done]
+val is_older = fn : (int * int * int) * (int * int * int) -> bool
+val number_in_month = fn : (int * int * int) list * int -> int
+val number_in_months = fn : (int * int * int) list * int list -> int
+val dates_in_month = fn
+  : (int * int * int) list * int -> (int * int * int) list
+val dates_in_months = fn
+  : (int * int * int) list * int list -> (int * int * int) list
+val get_nth = fn : string list * int -> string
+val date_to_string = fn : int * int * int -> string
+val number_before_reaching_sum = fn : int * int list -> int
+val what_month = fn : int -> int
+val month_range = fn : int * int -> int list
+val oldest = fn : (int * int * int) list -> (int * int * int) option
+val it = () : unit
+val test11 = <hidden-value> : bool
+val test12 = true : bool
+val test13 = true : bool
+val test14 = true : bool
+val test15 = true : bool
+val test16 = true : bool
+val test17 = true : bool
+val test21 = true : bool
+val test22 = true : bool
+val test23 = true : bool
+val test24 = true : bool
+val test31 = true : bool
+val test32 = true : bool
+val test40 = true : bool
+val test41 = true : bool
+val test42 = true : bool
+val test43 = true : bool
+val test44 = true : bool
+val test51 = true : bool
+val test52 = true : bool
+val test6 = true : bool
+val test7 = true : bool
+val test8 = true : bool
+val test81 = true : bool
+val test84 = true : bool
+val test85 = true : bool
+val test86 = true : bool
+val test87 = true : bool
+val test9 = false : bool
+val test9b = 1 : int
+val test91 = false : bool
+val test91b = 0 : int
+val test10 = false : bool
+val test101 = [0,1,1,1] : int list
+val test11 = false : bool
+val test111 = SOME (2012,2,28) : (int * int * int) option
+val it = () : unit
+- 
+
+Process sml finished
+Standard ML of New Jersey v110.76 [built: Sun Jul 14 09:59:19 2013]
+- use "hw1test.sml";
+[opening hw1test.sml]
+[opening homework1.sml]
+[autoloading]
+[library $SMLNJ-BASIS/basis.cm is stable]
+[autoloading done]
+val is_older = fn : (int * int * int) * (int * int * int) -> bool
+val number_in_month = fn : (int * int * int) list * int -> int
+val number_in_months = fn : (int * int * int) list * int list -> int
+val dates_in_month = fn
+  : (int * int * int) list * int -> (int * int * int) list
+val dates_in_months = fn
+  : (int * int * int) list * int list -> (int * int * int) list
+val get_nth = fn : string list * int -> string
+val date_to_string = fn : int * int * int -> string
+val number_before_reaching_sum = fn : int * int list -> int
+val what_month = fn : int -> int
+val month_range = fn : int * int -> int list
+val oldest = fn : (int * int * int) list -> (int * int * int) option
+val it = () : unit
+val test11 = <hidden-value> : bool
+val test12 = true : bool
+val test13 = true : bool
+val test14 = true : bool
+val test15 = true : bool
+val test16 = true : bool
+val test17 = true : bool
+val test21 = true : bool
+val test22 = true : bool
+val test23 = true : bool
+val test24 = true : bool
+val test31 = true : bool
+val test32 = true : bool
+val test40 = true : bool
+val test41 = true : bool
+val test42 = true : bool
+val test43 = true : bool
+val test44 = true : bool
+val test51 = true : bool
+val test52 = true : bool
+val test6 = true : bool
+val test7 = true : bool
+val test8 = true : bool
+val test81 = true : bool
+val test84 = true : boolal test85 = true : bool
+val test86 = true : bool
+val test87 = true : bool
+val test9 = false : bool
+val test9b = 2 : int
+val test91 = false : bool
+val test91b = 0 : int
+val test10 = false : bool
+val test101 = [0,1,1,1] : int list
+val test11 = false : bool
+val test111 = SOME (2012,2,28) : (int * int * int) option
+val it = () : unit
+- val test84 = true : boolal test85 = true : bool
+= 
+= stdIn:2.35 Error: syntax error found at EQUALOP
+- 
+
+Process sml finished
+Standard ML of New Jersey v110.76 [built: Sun Jul 14 09:59:19 2013]
+- use "hw1test.sml":
+= ;
+= stdIn:2.1 Error: syntax error found at SEMICOLON
+- 
+
+Process sml finished
+Standard ML of New Jersey v110.76 [built: Sun Jul 14 09:59:19 2013]
+- use "hw1test.sml";
+[opening hw1test.sml]
+[opening homework1.sml]
+[autoloading]
+[library $SMLNJ-BASIS/basis.cm is stable]
+[autoloading done]
+val is_older = fn : (int * int * int) * (int * int * int) -> bool
+val number_in_month = fn : (int * int * int) list * int -> int
+val number_in_months = fn : (int * int * int) list * int list -> int
+val dates_in_month = fn
+  : (int * int * int) list * int -> (int * int * int) list
+val dates_in_months = fn
+  : (int * int * int) list * int list -> (int * int * int) list
+val get_nth = fn : string list * int -> string
+val date_to_string = fn : int * int * int -> string
+val number_before_reaching_sum = fn : int * int list -> int
+val what_month = fn : int -> int
+val month_range = fn : int * int -> int list
+val oldest = fn : (int * int * int) list -> (int * int * int) option
+val it = () : unit
+val test11 = <hidden-value> : bool
+val test12 = true : bool
+val test13 = true : bool
+val test14 = true : bool
+val test15 = true : bool
+val test16 = true : bool
+val test17 = true : bool
+val test21 = true : bool
+val test22 = true : bool
+val test23 = true : bool
+val test24 = true : bool
+val test31 = true : bool
+val test32 = true : bool
+val test40 = true : bool
+val test41 = true : bool
+val test42 = true : bool
+val test43 = true : bool
+val test44 = true : bool
+val test51 = true : bool
+val test52 = true : bool
+val test6 = true : bool
+val test7 = true : bool
+val test8 = true : bool
+val test81 = true : bool
+val test84 = true : bool
+val test85 = true : bool
+val test86 = true : bool
+val test87 = true : bool
+val test9 = true : bool
+val test9b = 3 : int
+val test91 = true : boolval test91b = 1 : int
+val test10 = true : bool
+val test101 = [1,2,2,2] : int listval test11 = false : bool
+val test111 = SOME (2012,2,28) : (int * int * int) option
+val it = () : unit
+- val test91 = true : boolval test91b = 1 : int
+= 
+= 
+= stdIn:2.37 Error: syntax error found at EQUALOP
+- 
+
+Process sml finished
+Standard ML of New Jersey v110.76 [built: Sun Jul 14 09:59:19 2013]
+- use "hw1test.sml";
+[opening hw1test.sml]
+[opening homework1.sml]
+homework1.sml:87.17 Error: syntax error: inserting  ORELSE
+homework1.sml:93.1 Error: syntax error found at EOF
+
+uncaught exception Compile [Compile: "syntax error"]
+  raised at: ../compiler/Parse/main/smlfile.sml:15.24-15.46
+             ../compiler/TopLevel/interact/evalloop.sml:44.55
+             ../compiler/TopLevel/interact/evalloop.sml:296.17-296.20
+- 
+
+Process sml finished
+Standard ML of New Jersey v110.76 [built: Sun Jul 14 09:59:19 2013]
+- use "hw1test.sml";
+[opening hw1test.sml]
+[opening homework1.sml]
+[autoloading]use
+[library $SMLNJ-BASIS/basis.cm is stable]
+[autoloading done]
+homework1.sml:93.12-93.16 Error: unbound variable or constructor: help
+
+uncaught exception Error
+  raised at: ../compiler/TopLevel/interact/evalloop.sml:66.19-66.27
+             ../compiler/TopLevel/interact/evalloop.sml:44.55
+             ../compiler/TopLevel/interact/evalloop.sml:296.17-296.20
+- [autoloading]use
+= 
+= 
+= use "hw1test.sml";
+stdIn:1.3-1.14 Error: unbound variable or constructor: autoloading
+stdIn:1.2-4.18 Error: operator is not a function [tycon mismatch]
+  operator: _ list
+  in expression:
+    (<errorvar> :: nil) use
+- 
+
+Process sml finished
+Standard ML of New Jersey v110.76 [built: Sun Jul 14 09:59:19 2013]
+- use "hw1test.sml":
+= l
+= ;
+stdIn:2.1 Error: unbound type constructor: l
+- 
+
+Process sml finished
+cStandard ML of New Jersey v110.76 [built: Sun Jul 14 09:59:19 2013]
+- use "hw1test.sml";
+[opening hw1test.sml]
+[opening homework1.sml]
+[autoloading]
+[library $SMLNJ-BASIS/basis.cm is stable]
+[autoloading done]
+val is_older = fn : (int * int * int) * (int * int * int) -> bool
+val number_in_month = fn : (int * int * int) list * int -> int
+val number_in_months = fn : (int * int * int) list * int list -> int
+val dates_in_month = fn
+  : (int * int * int) list * int -> (int * int * int) list
+val dates_in_months = fn
+  : (int * int * int) list * int list -> (int * int * int) list
+val get_nth = fn : string list * int -> string
+val date_to_string = fn : int * int * int -> string
+val number_before_reaching_sum = fn : int * int list -> int
+val what_month = fn : int -> int
+val month_range = fn : int * int -> int list
+val oldest = fn : (int * int * int) list -> (int * int * int) option
+val it = () : unit
+val test11 = <hidden-value> : bool
+val test12 = true : bool
+val test13 = true : bool
+val test14 = true : bool
+val test15 = true : bool
+val test16 = true : bool
+val test17 = true : bool
+val test21 = true : bool
+val test22 = true : bool
+val test23 = true : bool
+val test24 = true : bool
+val test31 = true : bool
+val test32 = true : bool
+val test40 = true : bool
+val test41 = true : bool
+val test42 = true : bool
+val test43 = true : bool
+val test44 = true : bool
+val test51 = true : bool
+val test52 = true : bool
+val test6 = true : bool
+val test7 = true : bool
+val test8 = true : bool
+val test81 = true : bool
+val test84 = true : bool
+val test85 = true : bool
+val test86 = true : boolval test87 = true : bool
+val test9 = true : bool
+val test9b = 3 : int
+val test91 = true : bool
+val test91b = 1 : int
+val test10 = true : bool
+val test101 = [1,2,2,2] : int list
+val test11 = false : bool
+val test111 = SOME (2012,2,28) : (int * int * int) option
+val it = () : unit
+- val test86 = true : boolval test87 = true : bool
+= 
+= 
+= stdIn:2.36 Error: syntax error found at EQUALOP
+- 
+
+Process sml finished
+Standard ML of New Jersey v110.76 [built: Sun Jul 14 09:59:19 2013]
+- use "hw1test.sml";
+[opening hw1test.sml]
+[opening homework1.sml]
+[autoloading]
+[library $SMLNJ-BASIS/basis.cm is stable]
+[autoloading done]
+val is_older = fn : (int * int * int) * (int * int * int) -> bool
+val number_in_month = fn : (int * int * int) list * int -> int
+val number_in_months = fn : (int * int * int) list * int list -> int
+val dates_in_month = fn
+  : (int * int * int) list * int -> (int * int * int) list
+val dates_in_months = fn
+  : (int * int * int) list * int list -> (int * int * int) list
+val get_nth = fn : string list * int -> string
+val date_to_string = fn : int * int * int -> string
+val number_before_reaching_sum = fn : int * int list -> int
+val what_month = fn : int -> int
+val month_range = fn : int * int -> int list
+val oldest = fn : (int * int * int) list -> (int * int * int) option
+val it = () : unit
+val test11 = true : bool
+val test12 = true : bool
+val test13 = true : bool
+val test14 = true : bool
+val test15 = true : bool
+val test16 = true : bool
+val test17 = true : bool
+val test21 = true : bool
+val test22 = true : bool
+val test23 = true : bool
+val test24 = true : bool
+val test31 = true : bool
+val test32 = true : bool
+val test40 = true : bool
+val test41 = true : bool
+val test42 = true : bool
+val test43 = true : bool
+val test44 = true : bool
+val test51 = true : bool
+val test52 = true : bool
+val test61 = true : bool
+val test71 = true : bool
+val test80 = true : bool
+val test81 = true : bool
+val test84 = true : bool
+val test85 = true : bool
+val test86 = true : bool
+val test87 = true : bool
+val test90 = true : bool
+val test91 = true : bool
+val test10 = true : bool
+val test111 = false : bool
+val test111a = SOME (2012,2,28) : (int * int * int) option
+val test111b = true : bool
+val it = () : unit
+- 
+
+Process sml finished
+Standard ML of New Jersey v110.76 [built: Sun Jul 14 09:59:19 2013]
+- use "hw1test.sml";
+[opening hw1test.sml]
+[opening homework1.sml]
+[autoloading]
+[library $SMLNJ-BASIS/basis.cm is stable]
+[autoloading done]
+val is_older = fn : (int * int * int) * (int * int * int) -> bool
+val number_in_month = fn : (int * int * int) list * int -> int
+val number_in_months = fn : (int * int * int) list * int list -> int
+val dates_in_month = fn
+  : (int * int * int) list * int -> (int * int * int) list
+val dates_in_months = fn
+  : (int * int * int) list * int list -> (int * int * int) list
+val get_nth = fn : string list * int -> string
+val date_to_string = fn : int * int * int -> string
+val number_before_reaching_sum = fn : int * int list -> int
+val what_month = fn : int -> int
+val month_range = fn : int * int -> int list
+val oldest = fn : (int * int * int) list -> (int * int * int) option
+val it = () : unit
+val test11 = true : bool
+val test12 = true : bool
+val test13 = true : bool
+val test14 = true : bool
+val test15 = true : bool
+val test16 = true : bool
+val test17 = true : bool
+val test21 = true : bool
+val test22 = true : bool
+val test23 = true : bool
+val test24 = true : bool
+val test31 = true : bool
+val test32 = true : bool
+val test40 = true : bool
+val test41 = true : bool
+val test42 = true : bool
+val test43 = true : bool
+val test44 = true : bool
+val test51 = true : bool
+val test52 = true : bool
+val test61 = true : bool
+val test71 = true : bool
+val test80 = true : bool
+val test81 = true : boolval test84 = true : bool
+val test85 = true : bool
+val test86 = true : bool
+val test87 = true : bool
+val test90 = true : bool
+val test91 = true : bool
+val test10 = true : bool
+val test111 = false : bool
+val test111a = SOME (2012,2,28) : (int * int * int) option
+val test111b = true : bool
+val it = () : unit
+- use 
+= val it = fn : string -> unit
+
+
+Process sml finished
+Standard ML of New Jersey v110.76 [built: Sun Jul 14 09:59:19 2013]
+- use "hw1test.sml";
+[opening hw1test.sml]
+[opening homework1.sml]
+[autoloading]
+[library $SMLNJ-BASIS/basis.cm is stable]
+[autoloading done]
+val is_older = fn : (int * int * int) * (int * int * int) -> bool
+val number_in_month = fn : (int * int * int) list * int -> int
+val number_in_months = fn : (int * int * int) list * int list -> int
+val dates_in_month = fn
+  : (int * int * int) list * int -> (int * int * int) list
+val dates_in_months = fn
+  : (int * int * int) list * int list -> (int * int * int) list
+val get_nth = fn : string list * int -> string
+val date_to_string = fn : int * int * int -> string
+val number_before_reaching_sum = fn : int * int list -> int
+val what_month = fn : int -> int
+val month_range = fn : int * int -> int list
+val oldest = fn : (int * int * int) list -> (int * int * int) option
+val it = () : unit
+val test11 = true : bool
+val test12 = true : bool
+val test13 = true : bool
+val test14 = true : bool
+val test15 = true : bool
+val test16 = true : bool
+val test17 = true : bool
+val test21 = true : bool
+val test22 = true : bool
+val test23 = true : bool
+val test24 = true : bool
+val test31 = true : bool
+val test32 = true : bool
+val test40 = true : bool
+val test41 = true : bool
+val test42 = true : bool
+val test43 = true : bool
+val test44 = true : bool
+val test51 = true : bool
+val test52 = true : boolval test61 = true : bool
+val test71 = true : bool
+val test80 = true : bool
+val test81 = true : bool
+val test84 = true : bool
+val test85 = true : bool
+val test86 = true : bool
+val test87 = true : bool
+val test90 = true : bool
+val test91 = true : bool
+val test10 = true : bool
+val test111 = false : bool
+val test111a = SOME (2011,4,28) : (int * int * int) option
+val test111b = true : bool
+val it = () : unit
+- 
+- 
+- 
+
+Process sml finished
+Standard ML of New Jersey v110.76 [built: Sun Jul 14 09:59:19 2013]
+- use "hw1test.sml";
+[opening hw1test.sml]
+[opening homework1.sml]
+[autoloading]
+[library $SMLNJ-BASIS/basis.cm is stable]
+[autoloading done]
+val is_older = fn : (int * int * int) * (int * int * int) -> bool
+val number_in_month = fn : (int * int * int) list * int -> int
+val number_in_months = fn : (int * int * int) list * int list -> int
+val dates_in_month = fn
+  : (int * int * int) list * int -> (int * int * int) list
+val dates_in_months = fn
+  : (int * int * int) list * int list -> (int * int * int) list
+val get_nth = fn : string list * int -> string
+val date_to_string = fn : int * int * int -> string
+val number_before_reaching_sum = fn : int * int list -> int
+val what_month = fn : int -> int
+val month_range = fn : int * int -> int list
+val oldest = fn : (int * int * int) list -> (int * int * int) option
+val it = () : unit
+val test11 = true : bool
+val test12 = true : bool
+val test13 = true : bool
+val test14 = true : bool
+val test15 = true : bool
+val test16 = true : bool
+val test17 = true : bool
+val test21 = true : bool
+val test22 = true : bool
+val test23 = true : bool
+val test24 = true : bool
+val test31 = true : bool
+val test32 = true : bool
+val test40 = true : bool
+val test41 = true : bool
+val test42 = true : bool
+val test43 = true : bool
+val test44 = true : bool
+val test51 = true : bool
+val test52 = true : bool
+val test61 = true : bool
+val test71 = true : bool
+val test80 = true : bool
+val test81 = true : bool
+val test84 = true : bool
+val test85 = true : bool
+val test86 = true : bool
+val test87 = true : bool
+val test90 = true : bool
+val test91 = true : bool
+val test10 = true : bool
+val test111 = false : bool
+val test111a = SOME (2012,2,28) : (int * int * int) option
+val test111b = true : bool
+val it = () : unit
+- 
+
+Process sml finished
+Standard ML of New Jersey v110.76 [built: Sun Jul 14 09:59:19 2013]
+- use "hw1test.sml";
+[opening hw1test.sml]
+[opening homework1.sml]
+[autoloading]
+[library $SMLNJ-BASIS/basis.cm is stable]
+[autoloading done]
+val is_older = fn : (int * int * int) * (int * int * int) -> bool
+val number_in_month = fn : (int * int * int) list * int -> int
+val number_in_months = fn : (int * int * int) list * int list -> int
+val dates_in_month = fn
+  : (int * int * int) list * int -> (int * int * int) list
+val dates_in_months = fn
+  : (int * int * int) list * int list -> (int * int * int) list
+val get_nth = fn : string list * int -> string
+val date_to_string = fn : int * int * int -> string
+val number_before_reaching_sum = fn : int * int list -> int
+val what_month = fn : int -> int
+val month_range = fn : int * int -> int list
+val oldest = fn : (int * int * int) list -> (int * int * int) option
+val it = () : unit
+val test11 = true : bool
+val test12 = true : bool
+val test13 = true : bool
+val test14 = true : bool
+val test15 = true : bool
+val test16 = true : bool
+val test17 = true : bool
+val test21 = true : bool
+val test22 = true : bool
+val test23 = true : bool
+val test24 = true : bool
+val test31 = true : bool
+val test32 = true : bool
+val test40 = true : bool
+val test41 = true : bool
+val test42 = true : bool
+val test43 = true : bool
+val test44 = true : bool
+val test51 = true : bool
+val test52 = true : bool
+val test61 = true : bool
+val test71 = true : bool
+val test80 = true : bool
+val test81 = true : bool
+val test84 = true : bool
+val test85 = true : bool
+val test86 = true : bool
+val test87 = true : bool
+val test90 = true : bool
+val test91 = true : bool
+val test10 = tru: bool
+val test111 = false : bool
+val test111a = SOME (2010,2,28) : (int * int * int) option
+val test111b = true : bool
+val it = () : unit
+- 
+
+Process sml finished
+Standard ML of New Jersey v110.76 [built: Sun Jul 14 09:59:19 2013]
+- use "hw1test.sml";
+[opening hw1test.sml]
+[opening homework1.sml]
+homework1.sml:83.14 Error: syntax error: inserting  RPAREN
+
+uncaught exception Compile [Compile: "syntax error"]
+  raised at: ../compiler/Parse/main/smlfile.sml:15.24-15.46
+             ../compiler/TopLevel/interact/evalloop.sml:44.55
+             ../compiler/TopLevel/interact/evalloop.sml:296.17-296.20
+- val test10 = tru: bool
+= 
+= stdIn:1.15-1.18 Error: unbound variable or constructor: tru
+- 
+
+Process sml finished
+Standard ML of New Jersey v110.76 [built: Sun Jul 14 09:59:19 2013]
+- use "hw1test.sml";
+[opening hw1test.sml]
+[opening homework1.sml]
+[autoloading]
+[library $SMLNJ-BASIS/basis.cm is stable]
+[autoloading done]
+homework1.sml:83.35-83.44 Error: unbound variable or constructor: is_oldest
+homework1.sml:83.4-85.17 Error: types of if branches do not agree [tycon mismatch]
+  then branch: _ option
+  else branch: int * int * int
+  in expression:
+    if (isSome tl_ans) andals((valOf <errorvar>) (tl_ans,hd <exp>))
+    then tl_ans
+    else hd dates
+
+uncaught exception Error
+  raised at: ../compiler/TopLevel/interact/evalloop.sml:66.19-66.27
+             ../compiler/TopLevel/interact/evalloop.sml:44.55
+             ../compiler/TopLevel/interact/evalloop.sml:296.17-296.20
+-     if (isSome tl_ans) andals((valOf <errorvar>) (tl_ans,hd <exp>))
+= 
+= 
+= stdIn:4.1 Error: syntax error found at EOF
+- 
+
+Process sml finished
+Standard ML of New Jersey v110.76 [built: Su Jul 14 09:59:19 2013]
+- use "hw1test.sml";
+[opening hw1test.sml]
+[opening homework1.sml]
+[autoloading]
+[library $SMLNJ-BASIS/basis.cm is stable]
+[autoloading done]
+homework1.sml:83.29-83.61 Error: operator and operand don't agree [tycon mismatch]
+  operator domain: 'Z option
+  operand:         (int * int * int) * (int * int * int) -> bool
+  in expression:
+    valOf is_older
+homework1.sml:83.4-85.17 Error: types of if branches do not agree [tycon mismatch]
+  then branch: _ option
+  else branch: int * int * int
+  in expression:
+    if (isSome tl_ans) andalso ((valOf is_older) (tl_ans,hd <exp>))
+    then tl_ans
+    else hd dates
+
+uncaught exception Error
+  raised at: ../compiler/TopLevel/interact/evalloop.sml:66.19-66.27
+             ../compiler/TopLevel/interact/evalloop.sml:44.55
+             ../compiler/TopLevel/interact/evalloop.sml:296.17-296.20
+- 
+- 
+- 
+
+Process sml finished
+Standard ML of New Jersey v110.76 [built: Sun Jul 14 09:59:19 2013]
+- use "hw1test.sml";
+[opening hw1test.sml]
+[opening homework1.sml]
+[autoloading]
+[library $SMLNJ-BASIS/basis.cm is stable]
+[autoloading done]
+homework1.sml:83.4-85.17 Error: types of if branches do not agree [tycon mismatch]
+  then branch: (int * int * int) option
+  else branch: int * int * int
+  in expression:
+    if (isSome tl_ans) andalso (is_older (valOf <exp>,hd <exp>))
+    then tl_ans
+    else hd dates
+
+uncaught exception Error
+  raised at: ../compiler/TopLevel/interact/evalloop.sml:66.19-66.27
+             ../compiler/TopLevel/interact/evalloop.sml:44.55
+             ../compiler/TopLevel/interact/evalloop.sml:296.17-296.20
+- 
+
+Process sml finished
+Standard ML of New Jersey v110.76 [built: Sun Jul 14 09:59:19 2013]
+- use "hw1test.sml";
+[opening hw1test.sml]
+[opening homework1.sml]
+[autoloading]
+[library $SMLNJ-BASIS/basis.cm is stable]
+[autoloading done]
+val is_older = fn : (int * int * int) * (int * int * int) -> bool
+val number_in_month = fn : (int * int * int) list * int -> int
+val number_in_months = fn : (int * int * int) list * int list -> int
+val dates_in_month = fn
+  : (int * int * int) list * int -> (int * int * int) list
+val dates_in_months = fn
+  : (int * int * int) list * int list -> (int * int * int) list
+val get_nth = fn : string list * int -> string
+val date_to_string = fn : int * int * int -> string
+val number_before_reaching_sum = fn : int * int list -> int
+val what_month = fn : int -> int
+val month_range = fn : int * int -> int list
+val oldest = fn : (int * int * int) list -> (int * int * int) option
+val it = () : unit
+val test11 = true : bool
+val test12 = true : bool
+val test13 = true : bool
+val test14 = true : bool
+val test15 = true : bool
+val test16 = true : bool
+val test17 = true : bool
+val test21 = true : bool
+val test22 = true : bool
+val test23 = true : bool
+val test24 = true : bool
+val test31 = true : bool
+val test32 = true : bool
+val test40 = true : bool
+val test41 = true : bool
+val test42 = true : bool
+val test43 = true : bool
+val test44 = true : bool
+val test51 = true : bool
+val test52 = true : bool
+val test61 = true : bool
+val test71 = true : bool
+val test80 = true : bool
+val test81 = true : b
+val test84 = true : bool
+val test85 = true : bool
+val test86 = true : bool
+val test87 = true : bool
+val test90 = true : bool
+val test91 = true : bool
+val test10 = true : bool
+val test111 = false : bool
+val test111a = SOME (2010,2,28) : (int * int * int) option
+val test111b = true : bool
+val it = () : unit
+- val test81 = true : b
+= 
+= 
+= 
+= stdIn:2.21 Error: unbound type constructor: b
+- 
+
+Process sml finished
+Standard ML of New Jersey v110.76 [built: Sun Jul 14 09:59:19 2013]
+- use "hw1test.sml";
+[opening hw1test.sml]
+[opening homework1.sml]
+[autoloading]
+[library $SMLNJ-BASIS/basis.cm is stable]
+[autoloading done]
+val is_older = fn : (int * int * int) * (int * int * int) -> bool
+val number_in_month = fn : (int * int * int) list * int -> int
+val number_in_months = fn : (int * int * int) list * int list -> int
+val dates_in_month = fn
+  : (int * int * int) list * int -> (int * int * int) list
+val dates_in_months = fn
+  : (int * int * int) list * int list -> (int * int * int) list
+val get_nth = fn : string list * int -> string
+val date_to_string = fn : int * int * int -> string
+val number_before_reaching_sum = fn : int * int list -> int
+val what_month = fn : int -> int
+val month_range = fn : int * int -> int list
+val oldest = fn : (int * int * int) list -> (int * int * int) option
+val it = () : unit
+val test11 = true : bool
+val test12 = true : bool
+val test13 = true : bool
+val test14 = true : bool
+val test15 = true : bool
+val test16 = true : bool
+val test17 = true : bool
+val test21 = true : bool
+val test22 = true : bool
+val test23 = true : bool
+val test24 = true : bool
+val test31 = true : bool
+val test32 = true : bool
+val test40 = true : bool
+val test41 = true : bool
+val test42 = true : bool
+val test43 = true : bool
+val test44 = true : bool
+val test51 = true : bool
+val test52 = true : bool
+val test61 = true : bool
+val test71 = true : bool
+val test80 = true : bool
+val test81 = true : bool
+val test84 = true : bool
+val test85 = true : bool
+val test86 = true : bool
+val test87 = true : bool
+val test90 = true : bool
+val test91 = true : bool
+val test10 = true : bool
+val test111 = false : bool
+val test111a = SOME (2010,2,28) : (int * int * int) option
+val test111b = true : bool
+val it = () : unit
+- 
+
+Process sml finished
+Standard ML of New Jersey v110.76 [built: Sun Jul 14 09:59:19 2013]
+- use "hw1test.sml";
+[opening hw1test.sml]
+[opening homework1.sml]
+[autoloading]
+[library $SMLNJ-BASIS/basis.cm is stable]
+[autoloading done]
+val is_older = fn : (int * int * int) * (int * int * int) -> bool
+val number_in_month = fn : (int * int * int) list * int -> int
+val number_in_months = fn : (int * int * int) list * int list -> int
+val dates_in_month = fn
+  : (int * int * int) list * int -> (int * int * int) list
+val dates_in_months = fn
+  : (int * int * int) list * int list -> (int * int * int) list
+val get_nth = fn : string list * int -> string
+val date_to_string = fn : int * int * int -> string
+val number_before_reaching_sum = fn : int * int list -> int
+val what_month = fn : int -> int
+val month_range = fn : int * int -> int list
+val oldest = fn : (int * int * int) list -> (int * int * int) option
+val it = () : unit
+val test11 = true : bool
+val test12 = true : bool
+val test13 = true : bool
+val test14 = true : bool
+val test15 = true : bool
+val test16 = true : bool
+val test17 = true : bool
+val test21 = true : bool
+val test22 = true : bool
+val test23 = true : bool
+val test24 = true : bool
+val test31 = true : bool
+val test32 = true : bool
+val test40 = true : bool
+val test41 = true : bool
+val test42 = true : boolval test43 = true : bool
+val test44 = true : bool
+val test51 = true : bool
+val test52 = true : bool
+val test61 = true : bool
+val test71 = true : bool
+val test80 = true : bool
+val test81 = true : bool
+val test84 = true : bool
+val test85 = true : bool
+val test86 = true : bool
+val test87 = true : bool
+val test90 = true : bool
+val test91 = true : bool
+val test10 = true : bool
+val test111 = false : bool
+val test111a = SOME (2010,2,28) : (int * int * int) option
+val test111b = true : bool
+val it = () : unit
+- val test42 = true : boolval test43 = true : bool
+= 
+= stdIn:2.36 Error: syntax error found at EQUALOP
+- 
+
+Process sml finished
+Standard ML of New Jersey v110.76 [built: Sun Jul 14 09:59:19 2013]
+- use "hw1test.sml";
+[opening hw1test.sml]
+[opening homework1.sml]
+[autoloading]
+[library $SMLNJ-BASIS/basis.cm is stable]
+[autoloading done]
+val is_older = fn : (int * int * int) * (int * int * int) -> bool
+val number_in_month = fn : (int * int * int) list * int -> int
+val number_in_months = fn : (int * int * int) list * int list -> int
+val dates_in_month = fn
+  : (int * int * int) list * int -> (int * int * int) list
+val dates_in_months = fn
+  : (int * int * int) list * int list -> (int * int * int) list
+val get_nth = fn : string list * int -> string
+val date_to_string = fn : int * int * int -> string
+val number_before_reaching_sum = fn : int * int list -> int
+val what_month = fn : int -> int
+val month_range = fn : int * int -> int list
+val oldest = fn : (int * int * int) list -> (int * int * int) option
+val it = () : unit
+val test11 = true : bool
+val test12 = true : bool
+val test13 = true : bool
+val test14 = true : bool
+val test15 = true : bool
+val test16 = true : bool
+val test17 = true : bool
+val test21 = true : bool
+val test22 = true : bool
+val test23 = true : bool
+val test24 = true : bool
+val test31 = true : bool
+val test32 = true : bool
+val test40 = true : bool
+val test41 = true : bool
+val test42 = true : bool
+val test43 = true : bool
+val test44 = true : bool
+val test51 = true : bool
+val test52 = true : bool
+val test61 = true : bool
+val test71 = true : bool
+val test80 = true : bool
+val test81 = true : bool
+val test84 = true : bool
+val test85 = true : boolval test86 = true : bool
+val test87 = true : bool
+val test90 = true : bool
+val test91 = true : bool
+val test10 = true : bool
+val test111 = false : bool
+val test111a = SOME (2011,4,28) : (int * int * int) option
+val test111b = true : bool
+val it = () : unit
+- 
+- 
+- 
+
+Process sml finished
+Standard ML of New Jersey v110.76 [built: Sun Jul 14 09:59:19 2013]
+- use "hw1test.sml";
+[opening hw1test.sml]
+[opening homework1.sml]
+[autoloading]
+[library $SMLNJ-BASIS/basis.cm is stable]
+[autoloading done]
+val is_older = fn : (int * int * int) * (int * int * int) -> bool
+val number_in_month = fn : (int * int * int) list * int -> int
+val number_in_months = fn : (int * int * int) list * int list -> int
+val dates_in_month = fn
+  : (int * int * int) list * int -> (int * int * int) list
+val dates_in_months = fn
+  : (int * int * int) list * int list -> (int * int * int) list
+val get_nth = fn : string list * int -> string
+val date_to_string = fn : int * int * int -> string
+val number_before_reaching_sum = fn : int * int list -> int
+val what_month = fn : int -> int
+val month_range = fn : int * int -> int list
+val oldest = fn : (int * int * int) list -> (int * int * int) option
+val it = () : unit
+val test11 = true : bool
+val test12 = true : bool
+val test13 = true : bool
+val test14 = true : bool
+val test15 = true : bool
+val test16 = true : bool
+val test17 = true : bool
+val test21 = true : bool
+val test22 = true : bool
+val test23 = true : bool
+val test24 = true : bool
+val test31 = true : bool
+val test32 = true : bool
+val test40 = true : bool
+val test41 = true : bool
+val test42 = true : bool
+val test43 = true : bool
+val test44 = true : bool
+val test51 = true : bool
+val test52 = true : bool
+val test61 = true : bool
+val test71 = true : bool
+val test80 = true : bool
+val test81 = true : bool
+val test84 = true : bool
+val test85 = true : boolval test86 = true : bool
+val test87 = true : bool
+val test90 = true : bool
+val test91 = true : bool
+val test10 = true : bool
+val test111 = false : bool
+val test111a = SOME (2010,2,28) : (int * int * int) option
+val test111b = true : bool
+val it = () : unit
+- 
+- 
+- 
+
+Process sml finished
+Standard ML of New Jersey v110.76 [built: Sun Jul 14 09:59:19 2013]
+- use "hw1test.sml";
+[opening hw1test.sml]
+[opening homework1.sml]
+[autoloading]
+[library $SMLNJ-BASIS/basis.cm is stable]
+[autoloading done]
+val is_older = fn : (int * int * int) * (int * int * int) -> bool
+val number_in_month = fn : (int * int * int) list * int -> int
+val number_in_months = fn : (int * int * int) list * int list -> int
+val dates_in_month = fn
+  : (int * int * int) list * int -> (int * int * int) list
+val dates_in_months = fn
+  : (int * int * int) list * int list -> (int * int * int) list
+val get_nth = fn : string list * int -> string
+val date_to_string = fn : int * int * int -> string
+val number_before_reaching_sum = fn : int * int list -> int
+val what_month = fn : int -> int
+val month_range = fn : int * int -> int list
+val oldest = fn : (int * int * int) list -> (int * int * int) option
+val it = () : unit
+val test11 = true : bool
+val test12 = true : bool
+val test13 = true : bool
+val test14 = true : bool
+val test15 = true : bool
+val test16 = true : bool
+val test17 = true : bool
+val test21 = true : bool
+val test22 = true : bool
+val test23 = true : bool
+val test24 = true : bool
+val test31 = true : bool
+val test32 = true : bool
+val test40 = true : bool
+val test41 = true : bool
+val test42 = true : bool
+val test43 = true : boolval test44 = true : bool
+val test51 = true : bool
+val test52 = true : bool
+val test61 = true : bool
+val test71 = true : bool
+val test80 = true : bool
+val test81 = true : bool
+val test84 = true : bool
+val test85 = true : bool
+val test86 = true : bool
+val test87 = true : bool
+val test90 = true : bool
+val test91 = true : bool
+val test10 = true : bool
+val test111 = false : bool
+val test111a = SOME (2012,2,28) : (int * int * int) option
+val test111b = true : bool
+val test111c = false : bool
+val it = () : unit
+- val test43 = true : boolval test44 = true : bool
+= 
+= 
+= stdIn:2.36 Error: syntax error found at EQUALOP
+- 
+
+Process sml finished
+Standard ML of New Jersey v110.76 [built: Sun Jul 14 09:59:19 2013]
+- use "hw1test.sml";
+[opening hw1test.sml]
+[opening homework1.sml]
+[autoloading]
+[library $SMLNJ-BASIS/basis.cm is stable]
+[autoloading done]
+val is_older = fn : (int * int * int) * (int * int * int) -> bool
+val number_in_month = fn : (int * int * int) list * int -> int
+val number_in_months = fn : (int * int * int) list * int list -> int
+val dates_in_month = fn
+  : (int * int * int) list * int -> (int * int * int) list
+val dates_in_months = fn
+  : (int * int * int) list * int list -> (int * int * int) list
+val get_nth = fn : string list * int -> string
+val date_to_string = fn : int * int * int -> string
+val number_before_reaching_sum = fn : int * int list -> int
+val what_month = fn : int -> int
+val month_range = fn : int * int -> int list
+val oldest = fn : (int * int * int) list -> (int * int * int) option
+val it = () : unit
+val test11 = true : bool
+val test12 = true : bool
+val test13 = true : bool
+val test14 = true : bool
+val test15 = true : bool
+val test16 = true : bool
+val test17 = true : bool
+val test21 = true : bool
+val test22 = true : bool
+val test23 = true : bool
+val test24 = true : bool
+val test31 = true : bool
+val test32 = true : bool
+val test40 = true : bool
+val test41 = true : bool
+val test42 = true : bool
+val test43 = true : bool
+val test44 = true : bool
+val test51 = true : bool
+val test52 = true : bool
+val test61 = true : bool
+val test71 = true : bool
+val test80 = true : bool
+val test81 = true : bool
+val test84 = true : bool
+val test85 = true : bool
+val test86 = true : bool
+val test87 = true : bool
+val test90 = true : bool
+val test91 = true : bool
+val test10 = true : bool
+val test111 = false : bool
+val test111a = SOME (2012,2,28) : (int * int * int) option
+val test111b = true : bool
+val test111c = false : bool
+val it = () : unit
+- 

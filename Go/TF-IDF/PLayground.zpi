@@ -1,5 +1,5 @@
 <!-- Project file for the Zeus IDE - http://www.zeusedit.com -->
-<Project name="Go Saples" sorted="Yes" autosynch="" filename="" st_mtime="">
+<Project name="PLayground" sorted="Yes" autosynch="" filename="" st_mtime="">
     <SccEnable>On</SccEnable>
     <SccComment></SccComment>
     <SccProject></SccProject>
@@ -86,9 +86,8 @@
     <ReleaseProjectStdErr>On</ReleaseProjectStdErr>
     <ReleaseProjectSaveAll>Off</ReleaseProjectSaveAll>
     <ReleaseProjectReload>Off</ReleaseProjectReload>
-    <File>fibonacci.go</File>
-    <File>hello.go</File>
-    <File>NewtonCudeRoot.go</File>
-    <File>NewtonSqrt.go</File>
-    <File>WordCount.go</File>
+    <File>siteswap.go</File>
+    <Folder name="Header Files" sorted="Yes" />
+    <Folder name="Resource Files" sorted="Yes" />
+    <Folder name="Source Files" sorted="Yes" />
 </Project>
