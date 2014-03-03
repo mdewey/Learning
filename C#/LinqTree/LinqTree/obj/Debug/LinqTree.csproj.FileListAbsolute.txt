@@ -1,0 +1,6 @@
+C:\Repositories\Learning\C#\LinqTree\LinqTree\bin\Debug\LinqTree.exe.config
+C:\Repositories\Learning\C#\LinqTree\LinqTree\bin\Debug\LinqTree.exe
+C:\Repositories\Learning\C#\LinqTree\LinqTree\bin\Debug\LinqTree.pdb
+C:\Repositories\Learning\C#\LinqTree\LinqTree\obj\Debug\LinqTree.csprojResolveAssemblyReference.cache
+C:\Repositories\Learning\C#\LinqTree\LinqTree\obj\Debug\LinqTree.exe
+C:\Repositories\Learning\C#\LinqTree\LinqTree\obj\Debug\LinqTree.pdb
