@@ -21,8 +21,10 @@ def GenerateValidRandomPattern():
 		isValid, numberOfBalls = ValidatePattern(rightPattern)
 		attempts += 1
 		if (isValid):
-			print attempts
+			# print "Attempts",attempts
 			print "pattern",  rightPattern 
 			print "balls" , numberOfBalls
 			print "beats" , len(rightPattern)
 			return rightPattern, numberOfBalls,len(rightPattern)
+
+GenerateValidRandomPattern()
