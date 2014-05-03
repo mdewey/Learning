@@ -1,0 +1,5 @@
+C:\Repositories\Learning\C#\UtopianTree\UtopianTree\bin\Debug\UtopianTree.exe.config
+C:\Repositories\Learning\C#\UtopianTree\UtopianTree\bin\Debug\UtopianTree.exe
+C:\Repositories\Learning\C#\UtopianTree\UtopianTree\bin\Debug\UtopianTree.pdb
+C:\Repositories\Learning\C#\UtopianTree\UtopianTree\obj\Debug\UtopianTree.exe
+C:\Repositories\Learning\C#\UtopianTree\UtopianTree\obj\Debug\UtopianTree.pdb

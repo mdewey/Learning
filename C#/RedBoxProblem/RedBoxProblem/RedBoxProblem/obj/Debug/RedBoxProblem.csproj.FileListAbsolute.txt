@@ -1,0 +1,6 @@
+C:\Repositories\RedBoxProblem\RedBoxProblem\RedBoxProblem\bin\Debug\RedBoxProblem.exe.config
+C:\Repositories\RedBoxProblem\RedBoxProblem\RedBoxProblem\bin\Debug\RedBoxProblem.exe
+C:\Repositories\RedBoxProblem\RedBoxProblem\RedBoxProblem\bin\Debug\RedBoxProblem.pdb
+C:\Repositories\RedBoxProblem\RedBoxProblem\RedBoxProblem\obj\Debug\RedBoxProblem.csprojResolveAssemblyReference.cache
+C:\Repositories\RedBoxProblem\RedBoxProblem\RedBoxProblem\obj\Debug\RedBoxProblem.exe
+C:\Repositories\RedBoxProblem\RedBoxProblem\RedBoxProblem\obj\Debug\RedBoxProblem.pdb

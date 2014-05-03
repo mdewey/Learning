@@ -1,0 +1,16 @@
+C:\Repositories\Learning\C#\Neo4jExplorations\Neo4jExplorations\bin\Debug\Neo4jExplorations.exe.config
+C:\Repositories\Learning\C#\Neo4jExplorations\Neo4jExplorations\bin\Debug\Neo4jExplorations.exe
+C:\Repositories\Learning\C#\Neo4jExplorations\Neo4jExplorations\bin\Debug\Neo4jExplorations.pdb
+C:\Repositories\Learning\C#\Neo4jExplorations\Neo4jExplorations\bin\Debug\Neo4jClient.dll
+C:\Repositories\Learning\C#\Neo4jExplorations\Neo4jExplorations\bin\Debug\Newtonsoft.Json.dll
+C:\Repositories\Learning\C#\Neo4jExplorations\Neo4jExplorations\bin\Debug\System.Net.Http.Extensions.dll
+C:\Repositories\Learning\C#\Neo4jExplorations\Neo4jExplorations\bin\Debug\System.Net.Http.Primitives.dll
+C:\Repositories\Learning\C#\Neo4jExplorations\Neo4jExplorations\bin\Debug\Neo4jClient.pdb
+C:\Repositories\Learning\C#\Neo4jExplorations\Neo4jExplorations\bin\Debug\Neo4jClient.xml
+C:\Repositories\Learning\C#\Neo4jExplorations\Neo4jExplorations\bin\Debug\Newtonsoft.Json.xml
+C:\Repositories\Learning\C#\Neo4jExplorations\Neo4jExplorations\bin\Debug\System.Net.Http.Extensions.xml
+C:\Repositories\Learning\C#\Neo4jExplorations\Neo4jExplorations\bin\Debug\System.Net.Http.Primitives.xml
+C:\Repositories\Learning\C#\Neo4jExplorations\Neo4jExplorations\obj\Debug\Neo4jExplorations.csproj.App.config
+C:\Repositories\Learning\C#\Neo4jExplorations\Neo4jExplorations\obj\Debug\Neo4jExplorations.csprojResolveAssemblyReference.cache
+C:\Repositories\Learning\C#\Neo4jExplorations\Neo4jExplorations\obj\Debug\Neo4jExplorations.exe
+C:\Repositories\Learning\C#\Neo4jExplorations\Neo4jExplorations\obj\Debug\Neo4jExplorations.pdb

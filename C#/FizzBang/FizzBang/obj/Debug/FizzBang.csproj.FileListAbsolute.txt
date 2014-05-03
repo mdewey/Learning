@@ -1,0 +1,5 @@
+C:\Repositories\FizzBang\FizzBang\bin\Debug\FizzBang.exe.config
+C:\Repositories\FizzBang\FizzBang\bin\Debug\FizzBang.exe
+C:\Repositories\FizzBang\FizzBang\bin\Debug\FizzBang.pdb
+C:\Repositories\FizzBang\FizzBang\obj\Debug\FizzBang.exe
+C:\Repositories\FizzBang\FizzBang\obj\Debug\FizzBang.pdb
