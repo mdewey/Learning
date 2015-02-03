@@ -1,0 +1,5 @@
+D:\Repositories\learning\C#\LonelyInteger\LonelyInteger\bin\Debug\LonelyInteger.exe.config
+D:\Repositories\learning\C#\LonelyInteger\LonelyInteger\bin\Debug\LonelyInteger.exe
+D:\Repositories\learning\C#\LonelyInteger\LonelyInteger\bin\Debug\LonelyInteger.pdb
+D:\Repositories\learning\C#\LonelyInteger\LonelyInteger\obj\Debug\LonelyInteger.exe
+D:\Repositories\learning\C#\LonelyInteger\LonelyInteger\obj\Debug\LonelyInteger.pdb

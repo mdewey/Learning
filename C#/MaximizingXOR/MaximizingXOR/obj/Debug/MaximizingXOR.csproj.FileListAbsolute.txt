@@ -1,0 +1,6 @@
+D:\Repositories\learning\C#\MaximizingXOR\MaximizingXOR\bin\Debug\MaximizingXOR.exe.config
+D:\Repositories\learning\C#\MaximizingXOR\MaximizingXOR\bin\Debug\MaximizingXOR.exe
+D:\Repositories\learning\C#\MaximizingXOR\MaximizingXOR\bin\Debug\MaximizingXOR.pdb
+D:\Repositories\learning\C#\MaximizingXOR\MaximizingXOR\obj\Debug\MaximizingXOR.exe
+D:\Repositories\learning\C#\MaximizingXOR\MaximizingXOR\obj\Debug\MaximizingXOR.pdb
+D:\Repositories\learning\C#\MaximizingXOR\MaximizingXOR\obj\Debug\MaximizingXOR.csprojResolveAssemblyReference.cache

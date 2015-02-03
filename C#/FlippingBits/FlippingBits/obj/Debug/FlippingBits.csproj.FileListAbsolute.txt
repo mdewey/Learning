@@ -1,0 +1,6 @@
+D:\Repositories\learning\C#\FlippingBits\FlippingBits\bin\Debug\FlippingBits.exe.config
+D:\Repositories\learning\C#\FlippingBits\FlippingBits\bin\Debug\FlippingBits.exe
+D:\Repositories\learning\C#\FlippingBits\FlippingBits\bin\Debug\FlippingBits.pdb
+D:\Repositories\learning\C#\FlippingBits\FlippingBits\obj\Debug\FlippingBits.exe
+D:\Repositories\learning\C#\FlippingBits\FlippingBits\obj\Debug\FlippingBits.pdb
+D:\Repositories\learning\C#\FlippingBits\FlippingBits\obj\Debug\FlippingBits.csprojResolveAssemblyReference.cache

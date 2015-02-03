@@ -1,0 +1,6 @@
+D:\Repositories\learning\C#\AlternatinCharacters\AlternatinCharacters\bin\Debug\AlternatinCharacters.exe.config
+D:\Repositories\learning\C#\AlternatinCharacters\AlternatinCharacters\bin\Debug\AlternatinCharacters.exe
+D:\Repositories\learning\C#\AlternatinCharacters\AlternatinCharacters\bin\Debug\AlternatinCharacters.pdb
+D:\Repositories\learning\C#\AlternatinCharacters\AlternatinCharacters\obj\Debug\AlternatinCharacters.csprojResolveAssemblyReference.cache
+D:\Repositories\learning\C#\AlternatinCharacters\AlternatinCharacters\obj\Debug\AlternatinCharacters.exe
+D:\Repositories\learning\C#\AlternatinCharacters\AlternatinCharacters\obj\Debug\AlternatinCharacters.pdb
