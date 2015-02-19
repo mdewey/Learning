@@ -1,1 +1,9 @@
 D:\Repositories\learning\C#\DocumentDbTestProject\DocumentDbTestProject\bin\Debug\DocumentDbTestProject.exe.config
+D:\Repositories\learning\C#\DocumentDbTestProject\DocumentDbTestProject\bin\Debug\DocumentDbTestProject.exe
+D:\Repositories\learning\C#\DocumentDbTestProject\DocumentDbTestProject\bin\Debug\DocumentDbTestProject.pdb
+D:\Repositories\learning\C#\DocumentDbTestProject\DocumentDbTestProject\bin\Debug\Microsoft.Azure.Documents.Client.dll
+D:\Repositories\learning\C#\DocumentDbTestProject\DocumentDbTestProject\bin\Debug\Newtonsoft.Json.dll
+D:\Repositories\learning\C#\DocumentDbTestProject\DocumentDbTestProject\bin\Debug\Newtonsoft.Json.xml
+D:\Repositories\learning\C#\DocumentDbTestProject\DocumentDbTestProject\obj\Debug\DocumentDbTestProject.csprojResolveAssemblyReference.cache
+D:\Repositories\learning\C#\DocumentDbTestProject\DocumentDbTestProject\obj\Debug\DocumentDbTestProject.exe
+D:\Repositories\learning\C#\DocumentDbTestProject\DocumentDbTestProject\obj\Debug\DocumentDbTestProject.pdb
