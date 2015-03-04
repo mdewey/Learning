@@ -1,0 +1,6 @@
+D:\Repositories\learning\C#\PalidromeLove\PalidromeLove\bin\Debug\PalidromeLove.exe.config
+D:\Repositories\learning\C#\PalidromeLove\PalidromeLove\bin\Debug\PalidromeLove.exe
+D:\Repositories\learning\C#\PalidromeLove\PalidromeLove\bin\Debug\PalidromeLove.pdb
+D:\Repositories\learning\C#\PalidromeLove\PalidromeLove\obj\Debug\PalidromeLove.exe
+D:\Repositories\learning\C#\PalidromeLove\PalidromeLove\obj\Debug\PalidromeLove.pdb
+D:\Repositories\learning\C#\PalidromeLove\PalidromeLove\obj\Debug\PalidromeLove.csprojResolveAssemblyReference.cache
