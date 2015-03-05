@@ -1,0 +1,6 @@
+D:\Repositories\learning\C#\MaxMinFairness\MaxMinFairness\MaxMinFairness\bin\Debug\MaxMinFairness.exe.config
+D:\Repositories\learning\C#\MaxMinFairness\MaxMinFairness\MaxMinFairness\bin\Debug\MaxMinFairness.exe
+D:\Repositories\learning\C#\MaxMinFairness\MaxMinFairness\MaxMinFairness\bin\Debug\MaxMinFairness.pdb
+D:\Repositories\learning\C#\MaxMinFairness\MaxMinFairness\MaxMinFairness\obj\Debug\MaxMinFairness.csprojResolveAssemblyReference.cache
+D:\Repositories\learning\C#\MaxMinFairness\MaxMinFairness\MaxMinFairness\obj\Debug\MaxMinFairness.exe
+D:\Repositories\learning\C#\MaxMinFairness\MaxMinFairness\MaxMinFairness\obj\Debug\MaxMinFairness.pdb
