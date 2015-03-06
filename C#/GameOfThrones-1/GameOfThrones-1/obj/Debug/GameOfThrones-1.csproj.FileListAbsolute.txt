@@ -1,0 +1,5 @@
+D:\Repositories\learning\C#\GameOfThrones-1\GameOfThrones-1\bin\Debug\GameOfThrones-1.exe.config
+D:\Repositories\learning\C#\GameOfThrones-1\GameOfThrones-1\bin\Debug\GameOfThrones-1.exe
+D:\Repositories\learning\C#\GameOfThrones-1\GameOfThrones-1\bin\Debug\GameOfThrones-1.pdb
+D:\Repositories\learning\C#\GameOfThrones-1\GameOfThrones-1\obj\Debug\GameOfThrones-1.exe
+D:\Repositories\learning\C#\GameOfThrones-1\GameOfThrones-1\obj\Debug\GameOfThrones-1.pdb
