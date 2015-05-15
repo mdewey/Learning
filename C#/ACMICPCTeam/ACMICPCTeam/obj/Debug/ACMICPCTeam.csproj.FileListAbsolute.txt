@@ -1,0 +1,6 @@
+D:\Repositories\learning\C#\ACMICPCTeam\ACMICPCTeam\bin\Debug\ACMICPCTeam.exe.config
+D:\Repositories\learning\C#\ACMICPCTeam\ACMICPCTeam\bin\Debug\ACMICPCTeam.exe
+D:\Repositories\learning\C#\ACMICPCTeam\ACMICPCTeam\bin\Debug\ACMICPCTeam.pdb
+D:\Repositories\learning\C#\ACMICPCTeam\ACMICPCTeam\obj\Debug\ACMICPCTeam.csprojResolveAssemblyReference.cache
+D:\Repositories\learning\C#\ACMICPCTeam\ACMICPCTeam\obj\Debug\ACMICPCTeam.exe
+D:\Repositories\learning\C#\ACMICPCTeam\ACMICPCTeam\obj\Debug\ACMICPCTeam.pdb

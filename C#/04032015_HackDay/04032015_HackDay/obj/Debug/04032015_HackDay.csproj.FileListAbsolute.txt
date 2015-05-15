@@ -1,0 +1,6 @@
+D:\Repositories\learning\C#\04032015_HackDay\04032015_HackDay\bin\Debug\04032015_HackDay.exe.config
+D:\Repositories\learning\C#\04032015_HackDay\04032015_HackDay\bin\Debug\04032015_HackDay.exe
+D:\Repositories\learning\C#\04032015_HackDay\04032015_HackDay\bin\Debug\04032015_HackDay.pdb
+D:\Repositories\learning\C#\04032015_HackDay\04032015_HackDay\obj\Debug\04032015_HackDay.csprojResolveAssemblyReference.cache
+D:\Repositories\learning\C#\04032015_HackDay\04032015_HackDay\obj\Debug\04032015_HackDay.exe
+D:\Repositories\learning\C#\04032015_HackDay\04032015_HackDay\obj\Debug\04032015_HackDay.pdb

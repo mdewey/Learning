@@ -1,0 +1,6 @@
+D:\Repositories\learning\C#\StoreCredit\StoreCredit\bin\Debug\StoreCredit.exe.config
+D:\Repositories\learning\C#\StoreCredit\StoreCredit\bin\Debug\StoreCredit.exe
+D:\Repositories\learning\C#\StoreCredit\StoreCredit\bin\Debug\StoreCredit.pdb
+D:\Repositories\learning\C#\StoreCredit\StoreCredit\obj\Debug\StoreCredit.csprojResolveAssemblyReference.cache
+D:\Repositories\learning\C#\StoreCredit\StoreCredit\obj\Debug\StoreCredit.exe
+D:\Repositories\learning\C#\StoreCredit\StoreCredit\obj\Debug\StoreCredit.pdb
